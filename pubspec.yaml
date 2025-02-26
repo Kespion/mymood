@@ -61,6 +61,16 @@ flutter:
 
   assets:
     - res/assets/logos/logo_my_mood.svg
+    - res/assets/icons/icon_settings.svg
+    - res/assets/icons/moods/calm.svg
+    - res/assets/icons/moods/depressed.svg
+    - res/assets/icons/moods/energetic.svg
+    - res/assets/icons/moods/happy.svg
+    - res/assets/icons/moods/neutral.svg
+    - res/assets/icons/moods/sad.svg
+    - res/assets/icons/moods/stressed.svg
+    - res/assets/icons/moods/tired.svg
+    - res/assets/icons/moods/upset.svg
 
   fonts:
     # -- 1) Police Quicksand (versions fixes) --

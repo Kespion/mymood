@@ -31,7 +31,7 @@ class CustomTextStyle {
     decoration: TextDecoration.underline
   );
 
-  static TextStyle black12BoldTitle = const TextStyle(
+  static TextStyle black20BoldTitle = const TextStyle(
       color: Colors.black,
       fontSize: 20,
       //fontFamily: 'Quicksand',

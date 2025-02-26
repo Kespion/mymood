@@ -1,15 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:my_mood/components/buttons/blue_button.dart';
+import 'package:my_mood/components/buttons/containers/blue_container.dart';
 import 'package:my_mood/pages/login_pages/sign_in_page.dart';
 
-import '../../components/textfields/custom_input_textfield.dart';
+import '../../components/textfields/form_text_field.dart';
 import '../../components/texts/custom_text.dart';
 import '../../components/texts/text_styles/custom_text_style.dart';
-import '../home_page.dart';
 
 class ForgotPasswordPage extends StatelessWidget {
 
-  const ForgotPasswordPage({super.key});
+  FormTextField emailFtf = FormTextField("Adresse e-mail", CustomTextStyle.black16Regular, CustomTextStyle.hintText);
+
+  ForgotPasswordPage({super.key});
+
+  bool isFormValid() {
+    return emailFtf.customInputTextField.textEditingController.text.isNotEmpty;
+  }
+
+  void dispose() {
+    emailFtf.customInputTextField.textEditingController.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -17,34 +26,48 @@ class ForgotPasswordPage extends StatelessWidget {
         body: Padding(
           padding: const EdgeInsets.all(50),
           child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                CustomText("Mot de passe oublié :", CustomTextStyle.black12BoldTitle),
-                Container(height: 20),
-                Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      CustomText("Adresse e-mail", CustomTextStyle.black16Regular),
-                      Container(height: 5),
-                      CustomInputTextField("Adresse e-mail...", CustomTextStyle.hintText),
-                    ]
-                ),
-                Container(height: 20),
-                const BlueButton("Envoyer", HomePage()),
-                Container(height: 0),
-                TextButton(
+            child: SingleChildScrollView(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CustomText("Mot de passe oublié :", CustomTextStyle.black20BoldTitle),
+                  Container(height: 20),
+                  Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        emailFtf,
+                      ]
+                  ),
+                  Container(height: 20),
+                  MaterialButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          PageRouteBuilder(
-                            pageBuilder: (context, animation1, animation2) => const SignInPage(),
-                          )
-                      );
+                      if (isFormValid()) {
+                        dispose();
+                        Navigator.push(
+                            context,
+                            PageRouteBuilder(
+                              pageBuilder: (context, animation1, animation2) => SignInPage(),
+                            )
+                        );
+                      }
                     },
-                    child: CustomText("Retour à l'accueil", CustomTextStyle.black14RegularUnderline)
-                )
-              ],
+                    child: const BlueContainer("Envoyer"),
+                  ),
+                  Container(height: 0),
+                  TextButton(
+                      onPressed: () {
+                        dispose();
+                        Navigator.push(
+                            context,
+                            PageRouteBuilder(
+                              pageBuilder: (context, animation1, animation2) => SignInPage(),
+                            )
+                        );
+                      },
+                      child: CustomText("Retour à l'accueil", CustomTextStyle.black14RegularUnderline)
+                  )
+                ],
+              ),
             ),
           ),
         )

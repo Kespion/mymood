@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:my_mood/components/texts/text_styles/custom_text_style.dart';
 
 class CustomText extends StatelessWidget {
 
