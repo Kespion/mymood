@@ -1,0 +1,1360 @@
+[
+  {
+    "user_id": "1",
+    "preferences": [
+      {
+        "mood_id": "1",
+        "tagsFilmSerie": [
+          "historique",
+          "science-fiction",
+          "comédie",
+          "psychologique"
+        ],
+        "tagsLoisir": [
+          "photo",
+          "lecture",
+          "danse",
+          "musique"
+        ],
+        "tagsRepas": [
+          "healthy",
+          "italien",
+          "crudités",
+          "glace"
+        ]
+      },
+      {
+        "mood_id": "2",
+        "tagsFilmSerie": [
+          "mystère",
+          "thriller",
+          "fantastique",
+          "romance"
+        ],
+        "tagsLoisir": [
+          "camping",
+          "théâtre",
+          "photo",
+          "peinture"
+        ],
+        "tagsRepas": [
+          "épicé",
+          "tex-mex",
+          "cuisine moléculaire",
+          "barbecue"
+        ]
+      },
+      {
+        "mood_id": "3",
+        "tagsFilmSerie": [
+          "animation",
+          "documentaire",
+          "policier",
+          "suspense"
+        ],
+        "tagsLoisir": [
+          "voyage",
+          "cinéma",
+          "jeux vidéo",
+          "fléchettes"
+        ],
+        "tagsRepas": [
+          "burgers",
+          "mexicain",
+          "épicé",
+          "cuisine moléculaire"
+        ]
+      },
+      {
+        "mood_id": "4",
+        "tagsFilmSerie": [
+          "action",
+          "documentaire",
+          "policier",
+          "science-fiction"
+        ],
+        "tagsLoisir": [
+          "voyage",
+          "yoga",
+          "karaoké",
+          "puzzles"
+        ],
+        "tagsRepas": [
+          "fromage",
+          "libanais",
+          "sucré",
+          "crudités"
+        ]
+      },
+      {
+        "mood_id": "5",
+        "tagsFilmSerie": [
+          "historique",
+          "romance",
+          "documentaire",
+          "policier"
+        ],
+        "tagsLoisir": [
+          "raquette",
+          "musique",
+          "skateboard",
+          "yoga"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "healthy",
+          "asiatique",
+          "épicé"
+        ]
+      },
+      {
+        "mood_id": "6",
+        "tagsFilmSerie": [
+          "historique",
+          "horreur",
+          "mystère",
+          "science-fiction"
+        ],
+        "tagsLoisir": [
+          "photo",
+          "camping",
+          "karaoké",
+          "raquette"
+        ],
+        "tagsRepas": [
+          "glace",
+          "libanais",
+          "barbecue",
+          "burgers"
+        ]
+      },
+      {
+        "mood_id": "7",
+        "tagsFilmSerie": [
+          "action",
+          "comédie",
+          "psychologique",
+          "policier"
+        ],
+        "tagsLoisir": [
+          "relaxation",
+          "voyage",
+          "basketball",
+          "muscu"
+        ],
+        "tagsRepas": [
+          "glace",
+          "cuisine moléculaire",
+          "sucré",
+          "mexicain"
+        ]
+      },
+      {
+        "mood_id": "8",
+        "tagsFilmSerie": [
+          "drame",
+          "thriller",
+          "historique",
+          "documentaire"
+        ],
+        "tagsLoisir": [
+          "poker",
+          "bricolage",
+          "puzzles",
+          "photo"
+        ],
+        "tagsRepas": [
+          "italien",
+          "mexicain",
+          "végétarien",
+          "barbecue"
+        ]
+      },
+      {
+        "mood_id": "9",
+        "tagsFilmSerie": [
+          "aventure",
+          "historique",
+          "policier",
+          "thriller"
+        ],
+        "tagsLoisir": [
+          "tennis",
+          "peinture",
+          "fitness",
+          "fléchettes"
+        ],
+        "tagsRepas": [
+          "italien",
+          "tex-mex",
+          "glace",
+          "salé"
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": "2",
+    "preferences": [
+      {
+        "mood_id": "1",
+        "tagsFilmSerie": [
+          "fantastique",
+          "science-fiction",
+          "historique",
+          "drame"
+        ],
+        "tagsLoisir": [
+          "cinéma",
+          "voyage",
+          "karaoké",
+          "raquette"
+        ],
+        "tagsRepas": [
+          "épicé",
+          "barbecue",
+          "burgers",
+          "sucré"
+        ]
+      },
+      {
+        "mood_id": "2",
+        "tagsFilmSerie": [
+          "animation",
+          "aventure",
+          "documentaire",
+          "science-fiction"
+        ],
+        "tagsLoisir": [
+          "lecture",
+          "photo",
+          "fitness",
+          "fléchettes"
+        ],
+        "tagsRepas": [
+          "végétarien",
+          "asiatique",
+          "crudités",
+          "bio"
+        ]
+      },
+      {
+        "mood_id": "3",
+        "tagsFilmSerie": [
+          "action",
+          "horreur",
+          "romance",
+          "documentaire"
+        ],
+        "tagsLoisir": [
+          "raquette",
+          "muscu",
+          "bricolage",
+          "relaxation"
+        ],
+        "tagsRepas": [
+          "viande",
+          "glace",
+          "healthy",
+          "épicé"
+        ]
+      },
+      {
+        "mood_id": "4",
+        "tagsFilmSerie": [
+          "comédie",
+          "science-fiction",
+          "psychologique",
+          "animation"
+        ],
+        "tagsLoisir": [
+          "skateboard",
+          "escalade",
+          "camping",
+          "jeux vidéo"
+        ],
+        "tagsRepas": [
+          "viande",
+          "mexicain",
+          "italien",
+          "fast-food"
+        ]
+      },
+      {
+        "mood_id": "5",
+        "tagsFilmSerie": [
+          "animation",
+          "romance",
+          "fantastique",
+          "comédie"
+        ],
+        "tagsLoisir": [
+          "randonnée",
+          "jeux vidéo",
+          "théâtre",
+          "fléchettes"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "sucré",
+          "burgers",
+          "asiatique"
+        ]
+      },
+      {
+        "mood_id": "6",
+        "tagsFilmSerie": [
+          "animation",
+          "thriller",
+          "suspense",
+          "romance"
+        ],
+        "tagsLoisir": [
+          "escalade",
+          "muscu",
+          "fléchettes",
+          "camping"
+        ],
+        "tagsRepas": [
+          "salé",
+          "italien",
+          "healthy",
+          "mexicain"
+        ]
+      },
+      {
+        "mood_id": "7",
+        "tagsFilmSerie": [
+          "horreur",
+          "aventure",
+          "historique",
+          "fantastique"
+        ],
+        "tagsLoisir": [
+          "tennis",
+          "randonnée",
+          "jeux vidéo",
+          "photo"
+        ],
+        "tagsRepas": [
+          "asiatique",
+          "viande",
+          "sucré",
+          "barbecue"
+        ]
+      },
+      {
+        "mood_id": "8",
+        "tagsFilmSerie": [
+          "aventure",
+          "animation",
+          "fantastique",
+          "mystère"
+        ],
+        "tagsLoisir": [
+          "fléchettes",
+          "bricolage",
+          "théâtre",
+          "randonnée"
+        ],
+        "tagsRepas": [
+          "sucré",
+          "barbecue",
+          "libanais",
+          "glace"
+        ]
+      },
+      {
+        "mood_id": "9",
+        "tagsFilmSerie": [
+          "aventure",
+          "horreur",
+          "psychologique",
+          "drame"
+        ],
+        "tagsLoisir": [
+          "voyage",
+          "relaxation",
+          "tennis",
+          "sport"
+        ],
+        "tagsRepas": [
+          "glace",
+          "mexicain",
+          "viande",
+          "italien"
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": "3",
+    "preferences": [
+      {
+        "mood_id": "1",
+        "tagsFilmSerie": [
+          "thriller",
+          "drame",
+          "horreur",
+          "suspense"
+        ],
+        "tagsLoisir": [
+          "fléchettes",
+          "balade",
+          "camping",
+          "lecture"
+        ],
+        "tagsRepas": [
+          "healthy",
+          "épicé",
+          "mexicain",
+          "sucré"
+        ]
+      },
+      {
+        "mood_id": "2",
+        "tagsFilmSerie": [
+          "psychologique",
+          "thriller",
+          "fantastique",
+          "aventure"
+        ],
+        "tagsLoisir": [
+          "fitness",
+          "puzzles",
+          "fléchettes",
+          "camping"
+        ],
+        "tagsRepas": [
+          "burgers",
+          "barbecue",
+          "fromage",
+          "bio"
+        ]
+      },
+      {
+        "mood_id": "3",
+        "tagsFilmSerie": [
+          "romance",
+          "fantastique",
+          "horreur",
+          "mystère"
+        ],
+        "tagsLoisir": [
+          "théâtre",
+          "basketball",
+          "relaxation",
+          "balade"
+        ],
+        "tagsRepas": [
+          "crudités",
+          "cuisine moléculaire",
+          "végétarien",
+          "italien"
+        ]
+      },
+      {
+        "mood_id": "4",
+        "tagsFilmSerie": [
+          "mystère",
+          "psychologique",
+          "horreur",
+          "drame"
+        ],
+        "tagsLoisir": [
+          "musique",
+          "escalade",
+          "lecture",
+          "poker"
+        ],
+        "tagsRepas": [
+          "salé",
+          "glace",
+          "crudités",
+          "asiatique"
+        ]
+      },
+      {
+        "mood_id": "5",
+        "tagsFilmSerie": [
+          "policier",
+          "science-fiction",
+          "mystère",
+          "suspense"
+        ],
+        "tagsLoisir": [
+          "photo",
+          "peinture",
+          "randonnée",
+          "basketball"
+        ],
+        "tagsRepas": [
+          "tex-mex",
+          "sucré",
+          "crudités",
+          "libanais"
+        ]
+      },
+      {
+        "mood_id": "6",
+        "tagsFilmSerie": [
+          "romance",
+          "mystère",
+          "animation",
+          "horreur"
+        ],
+        "tagsLoisir": [
+          "poker",
+          "voyage",
+          "randonnée",
+          "karaoké"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "tex-mex",
+          "glace",
+          "asiatique"
+        ]
+      },
+      {
+        "mood_id": "7",
+        "tagsFilmSerie": [
+          "psychologique",
+          "mystère",
+          "drame",
+          "thriller"
+        ],
+        "tagsLoisir": [
+          "randonnée",
+          "escalade",
+          "danse",
+          "photo"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "italien",
+          "tex-mex",
+          "asiatique"
+        ]
+      },
+      {
+        "mood_id": "8",
+        "tagsFilmSerie": [
+          "science-fiction",
+          "action",
+          "psychologique",
+          "aventure"
+        ],
+        "tagsLoisir": [
+          "danse",
+          "skateboard",
+          "karaoké",
+          "puzzles"
+        ],
+        "tagsRepas": [
+          "burgers",
+          "viande",
+          "fromage",
+          "italien"
+        ]
+      },
+      {
+        "mood_id": "9",
+        "tagsFilmSerie": [
+          "fantastique",
+          "horreur",
+          "science-fiction",
+          "drame"
+        ],
+        "tagsLoisir": [
+          "skateboard",
+          "danse",
+          "cinéma",
+          "muscu"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "asiatique",
+          "fast-food",
+          "épicé"
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": "4",
+    "preferences": [
+      {
+        "mood_id": "1",
+        "tagsFilmSerie": [
+          "documentaire",
+          "historique",
+          "animation",
+          "mystère"
+        ],
+        "tagsLoisir": [
+          "karaoké",
+          "raquette",
+          "fitness",
+          "peinture"
+        ],
+        "tagsRepas": [
+          "asiatique",
+          "végétarien",
+          "mexicain",
+          "épicé"
+        ]
+      },
+      {
+        "mood_id": "2",
+        "tagsFilmSerie": [
+          "fantastique",
+          "animation",
+          "mystère",
+          "science-fiction"
+        ],
+        "tagsLoisir": [
+          "voyage",
+          "danse",
+          "poker",
+          "musique"
+        ],
+        "tagsRepas": [
+          "viande",
+          "glace",
+          "cuisine moléculaire",
+          "sucré"
+        ]
+      },
+      {
+        "mood_id": "3",
+        "tagsFilmSerie": [
+          "romance",
+          "drame",
+          "documentaire",
+          "policier"
+        ],
+        "tagsLoisir": [
+          "théâtre",
+          "relaxation",
+          "danse",
+          "basketball"
+        ],
+        "tagsRepas": [
+          "bio",
+          "asiatique",
+          "glace",
+          "viande"
+        ]
+      },
+      {
+        "mood_id": "4",
+        "tagsFilmSerie": [
+          "psychologique",
+          "policier",
+          "mystère",
+          "suspense"
+        ],
+        "tagsLoisir": [
+          "tennis",
+          "fitness",
+          "bricolage",
+          "relaxation"
+        ],
+        "tagsRepas": [
+          "viande",
+          "libanais",
+          "végétarien",
+          "tex-mex"
+        ]
+      },
+      {
+        "mood_id": "5",
+        "tagsFilmSerie": [
+          "policier",
+          "horreur",
+          "drame",
+          "documentaire"
+        ],
+        "tagsLoisir": [
+          "escalade",
+          "basketball",
+          "poker",
+          "bricolage"
+        ],
+        "tagsRepas": [
+          "healthy",
+          "burgers",
+          "glace",
+          "fast-food"
+        ]
+      },
+      {
+        "mood_id": "6",
+        "tagsFilmSerie": [
+          "psychologique",
+          "action",
+          "fantastique",
+          "policier"
+        ],
+        "tagsLoisir": [
+          "muscu",
+          "cinéma",
+          "puzzles",
+          "poker"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "sucré",
+          "épicé",
+          "glace"
+        ]
+      },
+      {
+        "mood_id": "7",
+        "tagsFilmSerie": [
+          "action",
+          "fantastique",
+          "policier",
+          "psychologique"
+        ],
+        "tagsLoisir": [
+          "voyage",
+          "théâtre",
+          "balade",
+          "puzzles"
+        ],
+        "tagsRepas": [
+          "italien",
+          "sucré",
+          "libanais",
+          "tex-mex"
+        ]
+      },
+      {
+        "mood_id": "8",
+        "tagsFilmSerie": [
+          "psychologique",
+          "mystère",
+          "fantastique",
+          "suspense"
+        ],
+        "tagsLoisir": [
+          "randonnée",
+          "relaxation",
+          "skateboard",
+          "basketball"
+        ],
+        "tagsRepas": [
+          "burgers",
+          "mexicain",
+          "crudités",
+          "viande"
+        ]
+      },
+      {
+        "mood_id": "9",
+        "tagsFilmSerie": [
+          "action",
+          "fantastique",
+          "mystère",
+          "drame"
+        ],
+        "tagsLoisir": [
+          "balade",
+          "fléchettes",
+          "bricolage",
+          "camping"
+        ],
+        "tagsRepas": [
+          "italien",
+          "fast-food",
+          "tex-mex",
+          "épicé"
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": "5",
+    "preferences": [
+      {
+        "mood_id": "1",
+        "tagsFilmSerie": [
+          "animation",
+          "policier",
+          "psychologique",
+          "comédie"
+        ],
+        "tagsLoisir": [
+          "danse",
+          "puzzles",
+          "balade",
+          "musique"
+        ],
+        "tagsRepas": [
+          "sucré",
+          "tex-mex",
+          "salé",
+          "crudités"
+        ]
+      },
+      {
+        "mood_id": "2",
+        "tagsFilmSerie": [
+          "mystère",
+          "documentaire",
+          "science-fiction",
+          "animation"
+        ],
+        "tagsLoisir": [
+          "bricolage",
+          "randonnée",
+          "cinéma",
+          "théâtre"
+        ],
+        "tagsRepas": [
+          "barbecue",
+          "sucré",
+          "salé",
+          "épicé"
+        ]
+      },
+      {
+        "mood_id": "3",
+        "tagsFilmSerie": [
+          "animation",
+          "romance",
+          "drame",
+          "aventure"
+        ],
+        "tagsLoisir": [
+          "escalade",
+          "lecture",
+          "skateboard",
+          "musique"
+        ],
+        "tagsRepas": [
+          "asiatique",
+          "fromage",
+          "épicé",
+          "burgers"
+        ]
+      },
+      {
+        "mood_id": "4",
+        "tagsFilmSerie": [
+          "romance",
+          "suspense",
+          "psychologique",
+          "action"
+        ],
+        "tagsLoisir": [
+          "tennis",
+          "basketball",
+          "balade",
+          "peinture"
+        ],
+        "tagsRepas": [
+          "burgers",
+          "viande",
+          "italien",
+          "cuisine moléculaire"
+        ]
+      },
+      {
+        "mood_id": "5",
+        "tagsFilmSerie": [
+          "science-fiction",
+          "comédie",
+          "documentaire",
+          "aventure"
+        ],
+        "tagsLoisir": [
+          "théâtre",
+          "yoga",
+          "fitness",
+          "photo"
+        ],
+        "tagsRepas": [
+          "épicé",
+          "libanais",
+          "tex-mex",
+          "salé"
+        ]
+      },
+      {
+        "mood_id": "6",
+        "tagsFilmSerie": [
+          "mystère",
+          "documentaire",
+          "fantastique",
+          "romance"
+        ],
+        "tagsLoisir": [
+          "fitness",
+          "jeux vidéo",
+          "basketball",
+          "bricolage"
+        ],
+        "tagsRepas": [
+          "glace",
+          "épicé",
+          "asiatique",
+          "végétarien"
+        ]
+      },
+      {
+        "mood_id": "7",
+        "tagsFilmSerie": [
+          "mystère",
+          "fantastique",
+          "policier",
+          "comédie"
+        ],
+        "tagsLoisir": [
+          "karaoké",
+          "camping",
+          "bricolage",
+          "randonnée"
+        ],
+        "tagsRepas": [
+          "végétarien",
+          "cuisine moléculaire",
+          "fast-food",
+          "mexicain"
+        ]
+      },
+      {
+        "mood_id": "8",
+        "tagsFilmSerie": [
+          "drame",
+          "romance",
+          "aventure",
+          "horreur"
+        ],
+        "tagsLoisir": [
+          "muscu",
+          "jeux vidéo",
+          "peinture",
+          "danse"
+        ],
+        "tagsRepas": [
+          "glace",
+          "tex-mex",
+          "fast-food",
+          "mexicain"
+        ]
+      },
+      {
+        "mood_id": "9",
+        "tagsFilmSerie": [
+          "historique",
+          "thriller",
+          "psychologique",
+          "science-fiction"
+        ],
+        "tagsLoisir": [
+          "balade",
+          "puzzles",
+          "théâtre",
+          "bricolage"
+        ],
+        "tagsRepas": [
+          "italien",
+          "sucré",
+          "mexicain",
+          "épicé"
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": "6",
+    "preferences": [
+      {
+        "mood_id": "1",
+        "tagsFilmSerie": [
+          "policier",
+          "drame",
+          "science-fiction",
+          "animation"
+        ],
+        "tagsLoisir": [
+          "bricolage",
+          "poker",
+          "musique",
+          "théâtre"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "italien",
+          "bio",
+          "barbecue"
+        ]
+      },
+      {
+        "mood_id": "2",
+        "tagsFilmSerie": [
+          "documentaire",
+          "policier",
+          "comédie",
+          "romance"
+        ],
+        "tagsLoisir": [
+          "danse",
+          "fléchettes",
+          "peinture",
+          "puzzles"
+        ],
+        "tagsRepas": [
+          "mexicain",
+          "healthy",
+          "glace",
+          "barbecue"
+        ]
+      },
+      {
+        "mood_id": "3",
+        "tagsFilmSerie": [
+          "romance",
+          "policier",
+          "action",
+          "animation"
+        ],
+        "tagsLoisir": [
+          "jeux vidéo",
+          "sport",
+          "skateboard",
+          "poker"
+        ],
+        "tagsRepas": [
+          "tex-mex",
+          "cuisine moléculaire",
+          "fast-food",
+          "crudités"
+        ]
+      },
+      {
+        "mood_id": "4",
+        "tagsFilmSerie": [
+          "horreur",
+          "drame",
+          "thriller",
+          "science-fiction"
+        ],
+        "tagsLoisir": [
+          "skateboard",
+          "fitness",
+          "tennis",
+          "bricolage"
+        ],
+        "tagsRepas": [
+          "bio",
+          "asiatique",
+          "viande",
+          "cuisine moléculaire"
+        ]
+      },
+      {
+        "mood_id": "5",
+        "tagsFilmSerie": [
+          "thriller",
+          "policier",
+          "suspense",
+          "science-fiction"
+        ],
+        "tagsLoisir": [
+          "muscu",
+          "jeux vidéo",
+          "danse",
+          "tennis"
+        ],
+        "tagsRepas": [
+          "healthy",
+          "végétarien",
+          "fromage",
+          "salé"
+        ]
+      },
+      {
+        "mood_id": "6",
+        "tagsFilmSerie": [
+          "fantastique",
+          "suspense",
+          "mystère",
+          "romance"
+        ],
+        "tagsLoisir": [
+          "danse",
+          "sport",
+          "skateboard",
+          "cinéma"
+        ],
+        "tagsRepas": [
+          "bio",
+          "barbecue",
+          "mexicain",
+          "healthy"
+        ]
+      },
+      {
+        "mood_id": "7",
+        "tagsFilmSerie": [
+          "romance",
+          "psychologique",
+          "documentaire",
+          "aventure"
+        ],
+        "tagsLoisir": [
+          "escalade",
+          "skateboard",
+          "raquette",
+          "danse"
+        ],
+        "tagsRepas": [
+          "asiatique",
+          "végétarien",
+          "tex-mex",
+          "bio"
+        ]
+      },
+      {
+        "mood_id": "8",
+        "tagsFilmSerie": [
+          "aventure",
+          "horreur",
+          "historique",
+          "suspense"
+        ],
+        "tagsLoisir": [
+          "tennis",
+          "fitness",
+          "peinture",
+          "camping"
+        ],
+        "tagsRepas": [
+          "épicé",
+          "fast-food",
+          "burgers",
+          "végétarien"
+        ]
+      },
+      {
+        "mood_id": "9",
+        "tagsFilmSerie": [
+          "thriller",
+          "drame",
+          "historique",
+          "mystère"
+        ],
+        "tagsLoisir": [
+          "tennis",
+          "balade",
+          "karaoké",
+          "fitness"
+        ],
+        "tagsRepas": [
+          "barbecue",
+          "salé",
+          "épicé",
+          "viande"
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": "7",
+    "preferences": [
+      {
+        "mood_id": "1",
+        "tagsFilmSerie": [
+          "horreur",
+          "policier",
+          "comédie",
+          "historique"
+        ],
+        "tagsLoisir": [
+          "camping",
+          "poker",
+          "danse",
+          "balade"
+        ],
+        "tagsRepas": [
+          "salé",
+          "healthy",
+          "épicé",
+          "italien"
+        ]
+      },
+      {
+        "mood_id": "2",
+        "tagsFilmSerie": [
+          "science-fiction",
+          "comédie",
+          "thriller",
+          "action"
+        ],
+        "tagsLoisir": [
+          "relaxation",
+          "fitness",
+          "tennis",
+          "sport"
+        ],
+        "tagsRepas": [
+          "fromage",
+          "sucré",
+          "viande",
+          "asiatique"
+        ]
+      },
+      {
+        "mood_id": "3",
+        "tagsFilmSerie": [
+          "mystère",
+          "fantastique",
+          "science-fiction",
+          "suspense"
+        ],
+        "tagsLoisir": [
+          "fitness",
+          "tennis",
+          "poker",
+          "fléchettes"
+        ],
+        "tagsRepas": [
+          "sucré",
+          "asiatique",
+          "burgers",
+          "crudités"
+        ]
+      },
+      {
+        "mood_id": "4",
+        "tagsFilmSerie": [
+          "documentaire",
+          "historique",
+          "science-fiction",
+          "horreur"
+        ],
+        "tagsLoisir": [
+          "photo",
+          "lecture",
+          "karaoké",
+          "théâtre"
+        ],
+        "tagsRepas": [
+          "épicé",
+          "healthy",
+          "libanais",
+          "crudités"
+        ]
+      },
+      {
+        "mood_id": "5",
+        "tagsFilmSerie": [
+          "psychologique",
+          "policier",
+          "animation",
+          "fantastique"
+        ],
+        "tagsLoisir": [
+          "fitness",
+          "sport",
+          "relaxation",
+          "musique"
+        ],
+        "tagsRepas": [
+          "italien",
+          "tex-mex",
+          "asiatique",
+          "salé"
+        ]
+      },
+      {
+        "mood_id": "6",
+        "tagsFilmSerie": [
+          "action",
+          "historique",
+          "psychologique",
+          "policier"
+        ],
+        "tagsLoisir": [
+          "fitness",
+          "lecture",
+          "basketball",
+          "peinture"
+        ],
+        "tagsRepas": [
+          "bio",
+          "fromage",
+          "glace",
+          "sucré"
+        ]
+      },
+      {
+        "mood_id": "7",
+        "tagsFilmSerie": [
+          "romance",
+          "fantastique",
+          "action",
+          "drame"
+        ],
+        "tagsLoisir": [
+          "tennis",
+          "peinture",
+          "danse",
+          "théâtre"
+        ],
+        "tagsRepas": [
+          "fast-food",
+          "épicé",
+          "glace",
+          "italien"
+        ]
+      },
+      {
+        "mood_id": "8",
+        "tagsFilmSerie": [
+          "aventure",
+          "romance",
+          "action",
+          "animation"
+        ],
+        "tagsLoisir": [
+          "théâtre",
+          "cinéma",
+          "muscu",
+          "relaxation"
+        ],
+        "tagsRepas": [
+          "healthy",
+          "crudités",
+          "végétarien",
+          "fromage"
+        ]
+      },
+      {
+        "mood_id": "9",
+        "tagsFilmSerie": [
+          "action",
+          "historique",
+          "policier",
+          "documentaire"
+        ],
+        "tagsLoisir": [
+          "skateboard",
+          "sport",
+          "danse",
+          "fitness"
+        ],
+        "tagsRepas": [
+          "italien",
+          "mexicain",
+          "asiatique",
+          "burgers"
+        ]
+      }
+    ]
+  }
+]

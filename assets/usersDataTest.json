@@ -6,17 +6,36 @@
     "email": "julien@example.com",
     "password": "hashedpassword",
     "current_mood": "heureux",
-    "preferences": [
-      { "tagsFilmSerie": ["action", "aventure", "science fiction"]},
-      { "tagsLoisir": ["sport", "raquette", "cinema"]},
-      { "tagsRepas": ["salé", "viande"]}
+    "friends_list": [
+      "2",
+      "4",
+      "7"
     ],
-    "friends_list": ["2", "4", "7"],
     "past_activities": [
       [
-        { "name": "Randonnée", "tags": ["nature", "détente"], "rate": 1 },
-        { "name": "Poisson à la crème", "tags": ["poisson"], "rate": 0 },
-        { "name": "Soirée jeux de société", "tags": ["fun", "amis"], "rate": 1 }
+        {
+          "name": "Randonnée",
+          "tags": [
+            "nature",
+            "détente"
+          ],
+          "rate": 1
+        },
+        {
+          "name": "Poisson à la crème",
+          "tags": [
+            "poisson"
+          ],
+          "rate": 0
+        },
+        {
+          "name": "Soirée jeux de société",
+          "tags": [
+            "fun",
+            "amis"
+          ],
+          "rate": 1
+        }
       ]
     ]
   },
@@ -27,16 +46,28 @@
     "email": "yves@example.com",
     "password": "hashedpassword",
     "current_mood": "déprimé",
-    "preferences": [
-      { "tagsFilmSerie": ["action", "aventure", "erotique"]},
-      { "tagsLoisir": ["jeux", "sport", "raquette"]},
-      { "tagsRepas": ["italien", "asiatique"]}
+    "friends_list": [
+      "1",
+      "7"
     ],
-    "friends_list": ["1", "7"],
     "past_activities": [
       [
-        { "name": "Mickey 17", "tags": ["action", "fiction"], "rate": 1 },
-        { "name": "Ski", "tags": ["sport", "hiver"], "rate": 0 }
+        {
+          "name": "Mickey 17",
+          "tags": [
+            "action",
+            "fiction"
+          ],
+          "rate": 1
+        },
+        {
+          "name": "Ski",
+          "tags": [
+            "sport",
+            "hiver"
+          ],
+          "rate": 0
+        }
       ]
     ]
   },
@@ -47,16 +78,24 @@
     "email": "eva@example.com",
     "password": "hashedpassword",
     "current_mood": "énérvé",
-    "preferences": [
-      { "tagsFilmSerie": ["policier", "aventure", "horreur"]},
-      { "tagsLoisir": ["jeux", "sport", "musique"]},
-      { "tagsRepas": ["italien", "sucré"]}
-    ],
     "friends_list": [],
     "past_activities": [
       [
-        { "name": "Match de foot", "tags": ["sport", "compétition"], "rate": 0 },
-        { "name": "Shopping", "tags": ["exterieur"], "rate": 1 }
+        {
+          "name": "Match de foot",
+          "tags": [
+            "sport",
+            "compétition"
+          ],
+          "rate": 0
+        },
+        {
+          "name": "Shopping",
+          "tags": [
+            "exterieur"
+          ],
+          "rate": 1
+        }
       ]
     ]
   },
@@ -67,20 +106,60 @@
     "email": "lauren@example.com",
     "password": "hashedpassword",
     "current_mood": "calme",
-    "preferences": [
-      { "tagsFilmSerie": ["romance", "comédie", "drame"]},
-      { "tagsLoisir": ["art", "sport", "cinema"]},
-      { "tagsRepas": ["fast-food", "asiatique", "italien", "sucré", "salé"]}
+    "friends_list": [
+      "1",
+      "6",
+      "7"
     ],
-    "friends_list": ["1", "6", "7"],
     "past_activities": [
       [
-        { "name": "Pilate", "tags": ["sport", "détente"], "rate": 1 },
-        { "name": "Course", "tags": ["sport", "cardio"], "rate": 0 },
-        { "name": "Les frères Scott", "tags": ["series", "familial"], "rate": 1 },
-        { "name": "Pâte bolognaise", "tags": ["italien", "viande"], "rate": 1 },
-        { "name": "Conjuring", "tags": ["horreur"], "rate": 0 },
-        { "name": "La reine des neiges", "tags": ["animation", "disney"], "rate": 1 }
+        {
+          "name": "Pilate",
+          "tags": [
+            "sport",
+            "détente"
+          ],
+          "rate": 1
+        },
+        {
+          "name": "Course",
+          "tags": [
+            "sport",
+            "cardio"
+          ],
+          "rate": 0
+        },
+        {
+          "name": "Les frères Scott",
+          "tags": [
+            "series",
+            "familial"
+          ],
+          "rate": 1
+        },
+        {
+          "name": "Pâte bolognaise",
+          "tags": [
+            "italien",
+            "viande"
+          ],
+          "rate": 1
+        },
+        {
+          "name": "Conjuring",
+          "tags": [
+            "horreur"
+          ],
+          "rate": 0
+        },
+        {
+          "name": "La reine des neiges",
+          "tags": [
+            "animation",
+            "disney"
+          ],
+          "rate": 1
+        }
       ]
     ]
   },
@@ -91,16 +170,33 @@
     "email": "ines@example.com",
     "password": "hashedpassword",
     "current_mood": "neutre",
-    "preferences": [
-      { "tagsFilmSerie": ["suspense", "horreur", "drame"]},
-      { "tagsLoisir": ["sport", "créatif", "chill"]},
-      { "tagsRepas": ["coreen", "libanais", "viande"]}
-    ],
+    "friends_list": [],
     "past_activities": [
       [
-        { "name": "Théatre", "tags": ["art", "spéctacle"], "rate": 0 },
-        { "name": "Danse", "tags": ["sport"], "rate": 1 },
-        { "name": "Cuisine", "tags": ["interieur", "nourriture", "créatif"], "rate": 1 }
+        {
+          "name": "Théatre",
+          "tags": [
+            "art",
+            "spéctacle"
+          ],
+          "rate": 0
+        },
+        {
+          "name": "Danse",
+          "tags": [
+            "sport"
+          ],
+          "rate": 1
+        },
+        {
+          "name": "Cuisine",
+          "tags": [
+            "interieur",
+            "nourriture",
+            "créatif"
+          ],
+          "rate": 1
+        }
       ]
     ]
   },
@@ -111,35 +207,59 @@
     "email": "stella@example.com",
     "password": "hashedpassword",
     "current_mood": "energique",
-    "preferences": [
-      { "tagsFilmSerie": ["action"]},
-      { "tagsLoisir": ["sport", "sport", "sport"]},
-      { "tagsRepas": ["proteine", "viande"]}
+    "friends_list": [
+      "4"
     ],
-    "friends_list": ["4"],
     "past_activities": [
       [
-        { "name": "Muscu", "tags": ["sport"], "rate": 1 },
-        { "name": "Observation des étoiles", "tags": ["science", "astronomie"], "rate": 0 }
+        {
+          "name": "Muscu",
+          "tags": [
+            "sport"
+          ],
+          "rate": 1
+        },
+        {
+          "name": "Observation des étoiles",
+          "tags": [
+            "science",
+            "astronomie"
+          ],
+          "rate": 0
+        }
       ]
     ]
-  },{
+  },
+  {
     "id": "7",
     "username": "Anthony VIANO",
     "pp": "https://example.com/anthony.png",
     "email": "anthony@example.com",
     "password": "hashedpassword",
     "current_mood": "fatigué",
-    "preferences": [
-      { "tagsFilmSerie": ["érotique", "documentaire", "horreur"]},
-      { "tagsLoisir": ["jeux", "sport", "raquette"]},
-      { "tagsRepas": ["épicé", "indien"]}
+    "friends_list": [
+      "1",
+      "3",
+      "4"
     ],
-    "friends_list": ["1", "3", "4"],
     "past_activities": [
       [
-        { "name": "Exposition d'art", "tags": ["art", "culture"], "rate": 0 },
-        { "name": "The forest", "tags": ["jeux vidéo", "horreur"], "rate": 1 }
+        {
+          "name": "Exposition d'art",
+          "tags": [
+            "art",
+            "culture"
+          ],
+          "rate": 0
+        },
+        {
+          "name": "The forest",
+          "tags": [
+            "jeux vidéo",
+            "horreur"
+          ],
+          "rate": 1
+        }
       ]
     ]
   }
