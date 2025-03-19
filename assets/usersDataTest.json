@@ -10,33 +10,6 @@
       "2",
       "4",
       "7"
-    ],
-    "past_activities": [
-      [
-        {
-          "name": "Randonnée",
-          "tags": [
-            "nature",
-            "détente"
-          ],
-          "rate": 1
-        },
-        {
-          "name": "Poisson à la crème",
-          "tags": [
-            "poisson"
-          ],
-          "rate": 0
-        },
-        {
-          "name": "Soirée jeux de société",
-          "tags": [
-            "fun",
-            "amis"
-          ],
-          "rate": 1
-        }
-      ]
     ]
   },
   {
@@ -49,26 +22,6 @@
     "friends_list": [
       "1",
       "7"
-    ],
-    "past_activities": [
-      [
-        {
-          "name": "Mickey 17",
-          "tags": [
-            "action",
-            "fiction"
-          ],
-          "rate": 1
-        },
-        {
-          "name": "Ski",
-          "tags": [
-            "sport",
-            "hiver"
-          ],
-          "rate": 0
-        }
-      ]
     ]
   },
   {
@@ -78,26 +31,7 @@
     "email": "eva@example.com",
     "password": "hashedpassword",
     "current_mood": "énérvé",
-    "friends_list": [],
-    "past_activities": [
-      [
-        {
-          "name": "Match de foot",
-          "tags": [
-            "sport",
-            "compétition"
-          ],
-          "rate": 0
-        },
-        {
-          "name": "Shopping",
-          "tags": [
-            "exterieur"
-          ],
-          "rate": 1
-        }
-      ]
-    ]
+    "friends_list": []
   },
   {
     "id": "4",
@@ -110,57 +44,6 @@
       "1",
       "6",
       "7"
-    ],
-    "past_activities": [
-      [
-        {
-          "name": "Pilate",
-          "tags": [
-            "sport",
-            "détente"
-          ],
-          "rate": 1
-        },
-        {
-          "name": "Course",
-          "tags": [
-            "sport",
-            "cardio"
-          ],
-          "rate": 0
-        },
-        {
-          "name": "Les frères Scott",
-          "tags": [
-            "series",
-            "familial"
-          ],
-          "rate": 1
-        },
-        {
-          "name": "Pâte bolognaise",
-          "tags": [
-            "italien",
-            "viande"
-          ],
-          "rate": 1
-        },
-        {
-          "name": "Conjuring",
-          "tags": [
-            "horreur"
-          ],
-          "rate": 0
-        },
-        {
-          "name": "La reine des neiges",
-          "tags": [
-            "animation",
-            "disney"
-          ],
-          "rate": 1
-        }
-      ]
     ]
   },
   {
@@ -170,35 +53,7 @@
     "email": "ines@example.com",
     "password": "hashedpassword",
     "current_mood": "neutre",
-    "friends_list": [],
-    "past_activities": [
-      [
-        {
-          "name": "Théatre",
-          "tags": [
-            "art",
-            "spéctacle"
-          ],
-          "rate": 0
-        },
-        {
-          "name": "Danse",
-          "tags": [
-            "sport"
-          ],
-          "rate": 1
-        },
-        {
-          "name": "Cuisine",
-          "tags": [
-            "interieur",
-            "nourriture",
-            "créatif"
-          ],
-          "rate": 1
-        }
-      ]
-    ]
+    "friends_list": []
   },
   {
     "id": "6",
@@ -209,25 +64,6 @@
     "current_mood": "energique",
     "friends_list": [
       "4"
-    ],
-    "past_activities": [
-      [
-        {
-          "name": "Muscu",
-          "tags": [
-            "sport"
-          ],
-          "rate": 1
-        },
-        {
-          "name": "Observation des étoiles",
-          "tags": [
-            "science",
-            "astronomie"
-          ],
-          "rate": 0
-        }
-      ]
     ]
   },
   {
@@ -241,26 +77,6 @@
       "1",
       "3",
       "4"
-    ],
-    "past_activities": [
-      [
-        {
-          "name": "Exposition d'art",
-          "tags": [
-            "art",
-            "culture"
-          ],
-          "rate": 0
-        },
-        {
-          "name": "The forest",
-          "tags": [
-            "jeux vidéo",
-            "horreur"
-          ],
-          "rate": 1
-        }
-      ]
     ]
   }
 ]
