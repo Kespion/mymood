@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Course à pied",
+    "tags": ["sport", "cardio", "extérieur", "fitness"]
+  },
+  {
+    "name": "Randonnée",
+    "tags": ["sport", "nature", "aventure", "extérieur"]
+  },
+  {
+    "name": "Cyclisme",
+    "tags": ["sport", "cardio", "vélo", "extérieur"]
+  },
+  {
+    "name": "Marche",
+    "tags": ["détente", "santé", "extérieur", "balade"]
+  },
+  {
+    "name": "Natation",
+    "tags": ["sport", "eau", "cardio", "fitness"]
+  },
+  {
+    "name": "Fitness en plein air",
+    "tags": ["sport", "musculation", "santé", "extérieur"]
+  },
+  {
+    "name": "Yoga",
+    "tags": ["relaxation", "méditation", "santé", "bien-être"]
+  },
+  {
+    "name": "Basketball",
+    "tags": ["sport", "équipe", "compétition", "extérieur"]
+  },
+  {
+    "name": "Badminton",
+    "tags": ["sport", "agilité", "raquette", "extérieur"]
+  },
+  {
+    "name": "Frisbee",
+    "tags": ["jeu", "loisir", "extérieur", "fun"]
+  },
+  {
+    "name": "Tai Chi",
+    "tags": ["méditation", "détente", "santé", "traditionnel"]
+  },
+  {
+    "name": "Saut à la corde",
+    "tags": ["sport", "cardio", "fitness", "agilité"]
+  },
+  {
+    "name": "Escalade en extérieur",
+    "tags": ["aventure", "sport", "adrénaline", "extérieur"]
+  },
+  {
+    "name": "Jardinage",
+    "tags": ["détente", "nature", "activité manuelle", "extérieur"]
+  },
+  {
+    "name": "Paddle",
+    "tags": ["sport", "eau", "équilibre", "loisir"]
+  },
+  {
+    "name": "Kayak",
+    "tags": ["sport", "eau", "aventure", "nature"]
+  },
+  {
+    "name": "Skateboard",
+    "tags": ["sport", "équilibre", "adrénaline", "loisir"]
+  },
+  {
+    "name": "Roller",
+    "tags": ["sport", "équilibre", "loisir", "vitesse"]
+  },
+  {
+    "name": "Surf",
+    "tags": ["sport", "eau", "aventure", "adrénaline"]
+  },
+  {
+    "name": "Tennis",
+    "tags": ["sport", "raquette", "compétition", "agilité"]
+  },
+  {
+    "name": "Football",
+    "tags": ["sport", "équipe", "compétition", "extérieur"]
+  },
+  {
+    "name": "Baseball",
+    "tags": ["sport", "équipe", "compétition", "extérieur"]
+  },
+  {
+    "name": "Randonnée à vélo",
+    "tags": ["sport", "aventure", "vélo", "nature"]
+  },
+  {
+    "name": "Kitesurf",
+    "tags": ["sport", "eau", "adrénaline", "loisir"]
+  },
+  {
+    "name": "Danse en plein air",
+    "tags": ["musique", "loisir", "fun", "extérieur"]
+  },
+  {
+    "name": "Observation des étoiles",
+    "tags": ["relaxation", "nature", "science", "nuit"]
+  },
+  {
+    "name": "Vélo électrique",
+    "tags": ["mobilité", "sport", "loisir", "nature"]
+  },
+  {
+    "name": "Courses d'orientation",
+    "tags": ["aventure", "sport", "nature", "challenge"]
+  },
+  {
+    "name": "Ski ou snowboard",
+    "tags": ["sport", "hiver", "adrénaline", "montagne"]
+  },
+  {
+    "name": "Canoë",
+    "tags": ["sport", "eau", "nature", "aventure"]
+  },
+  {
+    "name": "Bain de soleil",
+    "tags": ["détente", "plage", "bien-être", "soleil"]
+  },
+  {
+    "name": "Terrasse de café ou bar en plein air",
+    "tags": ["loisir", "social", "boisson", "extérieur"]
+  },
+  {
+    "name": "Soirées de jeux de société en extérieur",
+    "tags": ["fun", "social", "jeu", "extérieur"]
+  },
+  {
+    "name": "Concerts en plein air",
+    "tags": ["musique", "loisir", "culture", "événement"]
+  },
+  {
+    "name": "Cinéma en plein air",
+    "tags": ["cinéma", "loisir", "culture", "extérieur"]
+  },
+  {
+    "name": "Food trucks et marchés alimentaires",
+    "tags": ["gastronomie", "découverte", "nourriture", "extérieur"]
+  },
+  {
+    "name": "Cours de cuisine en plein air",
+    "tags": ["gastronomie", "loisir", "expérience", "extérieur"]
+  },
+  {
+    "name": "Soirées karaoké en extérieur",
+    "tags": ["musique", "fun", "loisir", "social"]
+  },
+  {
+    "name": "Bière-pong",
+    "tags": ["jeu", "alcool", "fun", "compétition"]
+  },
+  {
+    "name": "Happy hour sur une terrasse",
+    "tags": ["loisir", "alcool", "social", "détente"]
+  },
+  {
+    "name": "Ateliers d'art ou peinture en plein air",
+    "tags": ["créativité", "art", "loisir", "extérieur"]
+  },
+  {
+    "name": "Pêche en rivière ou en mer",
+    "tags": ["loisir", "nature", "patience", "extérieur"]
+  },
+  {
+    "name": "Batailles d'eau",
+    "tags": ["jeu", "fun", "eau", "loisir"]
+  },
+  {
+    "name": "Balades à vélo avec un arrêt dans un bar ou un pub",
+    "tags": ["loisir", "sport", "social", "boisson"]
+  },
+  {
+    "name": "Visites de brasseries ou de vignobles",
+    "tags": ["découverte", "gastronomie", "boisson", "expérience"]
+  },
+  {
+    "name": "Journées de bien-être en plein air",
+    "tags": ["santé", "bien-être", "relaxation", "extérieur"]
+  },
+  {
+    "name": "Cueillette de fruits et légumes",
+    "tags": ["nature", "extérieur", "agriculture", "loisir"]
+  },
+  {
+    "name": "Plongée sous-marine / Snorkeling",
+    "tags": ["sport", "eau", "aventure", "exploration"]
+  },
+  {
+    "name": "Randonnée équestre",
+    "tags": ["sport", "nature", "équitation", "aventure"]
+  },
+  {
+    "name": "Observation des oiseaux",
+    "tags": ["nature", "science", "détente", "extérieur"]
+  },
+  {
+    "name": "Feux de camp et chamallows grillés",
+    "tags": ["détente", "nature", "loisir", "convivialité"]
+  },
+  {
+    "name": "Pique-nique en pleine nature",
+    "tags": ["loisir", "nature", "détente", "gastronomie"]
+  },
+  {
+    "name": "Balade en montgolfière",
+    "tags": ["aventure", "extérieur", "adrénaline", "découverte"]
+  },
+  {
+    "name": "Camping sauvage",
+    "tags": ["aventure", "nature", "loisir", "extérieur"]
+  },
+  {
+    "name": "Balade en bateau / croisière",
+    "tags": ["détente", "voyage", "aventure", "eau"]
+  },
+  {
+    "name": "Escape Game en extérieur",
+    "tags": ["jeu", "puzzle", "challenge", "teamwork"]
+  },
+  {
+    "name": "Théâtre de rue",
+    "tags": ["culture", "art", "spectacle", "extérieur"]
+  },
+  {
+    "name": "Visites de châteaux / monuments historiques",
+    "tags": ["culture", "histoire", "exploration", "loisir"]
+  },
+  {
+    "name": "Ateliers de poterie ou sculpture",
+    "tags": ["art", "créativité", "loisir", "manuel"]
+  },
+  {
+    "name": "Spectacle de feux d’artifice",
+    "tags": ["événement", "spectacle", "fête", "extérieur"]
+  },
+  {
+    "name": "Carnavals et festivals",
+    "tags": ["culture", "musique", "célébration", "loisir"]
+  },
+  {
+    "name": "Fresque murale participative (Street Art)",
+    "tags": ["art", "créativité", "peinture", "extérieur"]
+  },
+  {
+    "name": "Parkour / Free Running",
+    "tags": ["sport", "agilité", "adrénaline", "urbain"]
+  },
+  {
+    "name": "Slackline (Équilibre sur sangle)",
+    "tags": ["sport", "équilibre", "challenge", "extérieur"]
+  },
+  {
+    "name": "Tir à l’arc",
+    "tags": ["sport", "précision", "concentration", "loisir"]
+  },
+  {
+    "name": "Paintball / Airsoft",
+    "tags": ["sport", "adrénaline", "équipe", "stratégie"]
+  },
+  {
+    "name": "Zorbing (descendre une pente dans une bulle géante)",
+    "tags": ["sport", "fun", "adrénaline", "aventure"]
+  },
+  {
+    "name": "Saut en parachute",
+    "tags": ["aventure", "adrénaline", "sport", "sensation forte"]
+  },
+  {
+    "name": "Parapente",
+    "tags": ["aventure", "adrénaline", "sport", "extérieur"]
+  },
+  {
+    "name": "Course de drones",
+    "tags": ["technologie", "compétition", "pilotage", "loisir"]
+  },
+  {
+    "name": "Blind Test musical",
+    "tags": ["jeu", "musique", "fun", "soirée"]
+  },
+  {
+    "name": "Tournoi de fléchettes",
+    "tags": ["jeu", "précision", "bar", "soirée"]
+  },
+  {
+    "name": "Soirée quiz géant en plein air",
+    "tags": ["jeu", "loisir", "culture", "extérieur"]
+  },
+  {
+    "name": "Bingo en terrasse",
+    "tags": ["jeu", "loisir", "social", "extérieur"]
+  },
+  {
+    "name": "Soirée murder party",
+    "tags": ["jeu", "rôle", "mystère", "soirée"]
+  },
+  {
+    "name": "Dégustation de cocktails en extérieur",
+    "tags": ["gastronomie", "boisson", "expérience", "social"]
+  },
+  {
+    "name": "Tournois de beer-pong géant",
+    "tags": ["jeu", "alcool", "fun", "compétition"]
+  },
+  {
+    "name": "Nuit d’observation des satellites et planètes",
+    "tags": ["science", "astronomie", "exploration", "extérieur"]
+  },
+  {
+    "name": "Expériences de réalité virtuelle en plein air",
+    "tags": ["technologie", "jeu", "expérience", "VR"]
+  },
+  {
+    "name": "Atelier d’astronomie avec télescopes",
+    "tags": ["science", "astronomie", "éducation", "extérieur"]
+  },
+  {
+    "name": "Atelier de robotique en extérieur",
+    "tags": ["technologie", "créativité", "ingénierie", "expérience"]
+  },
+  {
+    "name": "Projection de films en réalité augmentée",
+    "tags": ["technologie", "cinéma", "VR", "expérience"]
+  }
+]
