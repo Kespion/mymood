@@ -3,22 +3,22 @@
     "user_id": "1",
     "past_activities": [
       {
-        "day": "J-0",
-        "mood_id": "2",
+        "date": "2025-03-19",
+        "mood_id": "7",
         "activities": [
           {
-            "name": "Binge-watching série",
+            "name": "Séance de cinéma",
             "tags": [
-              "séries",
-              "divertissement"
+              "cinéma",
+              "film"
             ],
             "rate": 1
           },
           {
-            "name": "Soirée jeux de société",
+            "name": "Atelier de peinture",
             "tags": [
-              "jeux",
-              "amis"
+              "art",
+              "créativité"
             ],
             "rate": 1
           },
@@ -31,36 +31,6 @@
             "rate": 1
           }
         ]
-      },
-      {
-        "day": "J-1",
-        "mood_id": "4",
-        "activities": [
-          {
-            "name": "Marathon de films d'horreur",
-            "tags": [
-              "horreur",
-              "cinéma"
-            ],
-            "rate": 1
-          },
-          {
-            "name": "Concert de musique live",
-            "tags": [
-              "musique",
-              "spectacle"
-            ],
-            "rate": 1
-          },
-          {
-            "name": "Brunch healthy",
-            "tags": [
-              "healthy",
-              "brunch"
-            ],
-            "rate": 0
-          }
-        ]
       }
     ]
   },
@@ -68,42 +38,7 @@
     "user_id": "2",
     "past_activities": [
       {
-        "day": "J-0",
-        "mood_id": "2",
-        "activities": [
-          {
-            "name": "Soirée documentaire",
-            "tags": [
-              "documentaire",
-              "éducation"
-            ],
-            "rate": 0
-          },
-          {
-            "name": "Match de football",
-            "tags": [
-              "sport",
-              "compétition"
-            ],
-            "rate": 0
-          },
-          {
-            "name": "Dégustation de vins",
-            "tags": [
-              "vin",
-              "expérience"
-            ],
-            "rate": 0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user_id": "3",
-    "past_activities": [
-      {
-        "day": "J-0",
+        "date": "2025-03-19",
         "mood_id": "6",
         "activities": [
           {
@@ -123,32 +58,97 @@
             "rate": 1
           },
           {
-            "name": "Dîner italien",
+            "name": "Dégustation de vins",
             "tags": [
-              "italien",
-              "gastronomie"
+              "vin",
+              "expérience"
             ],
             "rate": 0
           }
         ]
       },
       {
-        "day": "J-1",
-        "mood_id": "8",
+        "date": "2025-03-18",
+        "mood_id": "4",
         "activities": [
           {
-            "name": "Soirée documentaire",
+            "name": "Séance de cinéma",
             "tags": [
-              "documentaire",
-              "éducation"
+              "cinéma",
+              "film"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Match de football",
+            "tags": [
+              "sport",
+              "compétition"
             ],
             "rate": 1
           },
           {
-            "name": "Soirée jeux de société",
+            "name": "Soirée barbecue",
             "tags": [
-              "jeux",
-              "amis"
+              "barbecue",
+              "grillades"
+            ],
+            "rate": 0
+          }
+        ]
+      },
+      {
+        "date": "2025-03-17",
+        "mood_id": "5",
+        "activities": [
+          {
+            "name": "Festival de films",
+            "tags": [
+              "cinéma",
+              "festival"
+            ],
+            "rate": 1
+          },
+          {
+            "name": "Match de football",
+            "tags": [
+              "sport",
+              "compétition"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Brunch healthy",
+            "tags": [
+              "healthy",
+              "brunch"
+            ],
+            "rate": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": "3",
+    "past_activities": [
+      {
+        "date": "2025-03-19",
+        "mood_id": "1",
+        "activities": [
+          {
+            "name": "Marathon de films d'horreur",
+            "tags": [
+              "horreur",
+              "cinéma"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Atelier de peinture",
+            "tags": [
+              "art",
+              "créativité"
             ],
             "rate": 0
           },
@@ -168,68 +168,8 @@
     "user_id": "4",
     "past_activities": [
       {
-        "day": "J-0",
-        "mood_id": "5",
-        "activities": [
-          {
-            "name": "Marathon de films d'horreur",
-            "tags": [
-              "horreur",
-              "cinéma"
-            ],
-            "rate": 1
-          },
-          {
-            "name": "Concert de musique live",
-            "tags": [
-              "musique",
-              "spectacle"
-            ],
-            "rate": 0
-          },
-          {
-            "name": "Soirée barbecue",
-            "tags": [
-              "barbecue",
-              "grillades"
-            ],
-            "rate": 1
-          }
-        ]
-      },
-      {
-        "day": "J-1",
-        "mood_id": "4",
-        "activities": [
-          {
-            "name": "Festival de films",
-            "tags": [
-              "cinéma",
-              "festival"
-            ],
-            "rate": 1
-          },
-          {
-            "name": "Concert de musique live",
-            "tags": [
-              "musique",
-              "spectacle"
-            ],
-            "rate": 0
-          },
-          {
-            "name": "Brunch healthy",
-            "tags": [
-              "healthy",
-              "brunch"
-            ],
-            "rate": 0
-          }
-        ]
-      },
-      {
-        "day": "J-2",
-        "mood_id": "9",
+        "date": "2025-03-19",
+        "mood_id": "2",
         "activities": [
           {
             "name": "Binge-watching série",
@@ -237,7 +177,37 @@
               "séries",
               "divertissement"
             ],
-            "rate": 1
+            "rate": 0
+          },
+          {
+            "name": "Atelier de peinture",
+            "tags": [
+              "art",
+              "créativité"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Dégustation de vins",
+            "tags": [
+              "vin",
+              "expérience"
+            ],
+            "rate": 0
+          }
+        ]
+      },
+      {
+        "date": "2025-03-18",
+        "mood_id": "2",
+        "activities": [
+          {
+            "name": "Festival de films",
+            "tags": [
+              "cinéma",
+              "festival"
+            ],
+            "rate": 0
           },
           {
             "name": "Atelier de peinture",
@@ -248,10 +218,40 @@
             "rate": 1
           },
           {
-            "name": "Brunch healthy",
+            "name": "Dégustation de vins",
             "tags": [
-              "healthy",
-              "brunch"
+              "vin",
+              "expérience"
+            ],
+            "rate": 0
+          }
+        ]
+      },
+      {
+        "date": "2025-03-17",
+        "mood_id": "7",
+        "activities": [
+          {
+            "name": "Séance de cinéma",
+            "tags": [
+              "cinéma",
+              "film"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Concert de musique live",
+            "tags": [
+              "musique",
+              "spectacle"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Food-truck asiatique",
+            "tags": [
+              "asiatique",
+              "street-food"
             ],
             "rate": 0
           }
@@ -263,68 +263,38 @@
     "user_id": "5",
     "past_activities": [
       {
-        "day": "J-0",
+        "date": "2025-03-19",
+        "mood_id": "9",
+        "activities": [
+          {
+            "name": "Séance de cinéma",
+            "tags": [
+              "cinéma",
+              "film"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Soirée jeux de société",
+            "tags": [
+              "jeux",
+              "amis"
+            ],
+            "rate": 0
+          },
+          {
+            "name": "Food-truck asiatique",
+            "tags": [
+              "asiatique",
+              "street-food"
+            ],
+            "rate": 0
+          }
+        ]
+      },
+      {
+        "date": "2025-03-18",
         "mood_id": "4",
-        "activities": [
-          {
-            "name": "Marathon de films d'horreur",
-            "tags": [
-              "horreur",
-              "cinéma"
-            ],
-            "rate": 1
-          },
-          {
-            "name": "Concert de musique live",
-            "tags": [
-              "musique",
-              "spectacle"
-            ],
-            "rate": 0
-          },
-          {
-            "name": "Dîner italien",
-            "tags": [
-              "italien",
-              "gastronomie"
-            ],
-            "rate": 0
-          }
-        ]
-      },
-      {
-        "day": "J-1",
-        "mood_id": "7",
-        "activities": [
-          {
-            "name": "Binge-watching série",
-            "tags": [
-              "séries",
-              "divertissement"
-            ],
-            "rate": 0
-          },
-          {
-            "name": "Concert de musique live",
-            "tags": [
-              "musique",
-              "spectacle"
-            ],
-            "rate": 1
-          },
-          {
-            "name": "Soirée barbecue",
-            "tags": [
-              "barbecue",
-              "grillades"
-            ],
-            "rate": 0
-          }
-        ]
-      },
-      {
-        "day": "J-2",
-        "mood_id": "5",
         "activities": [
           {
             "name": "Soirée documentaire",
@@ -332,7 +302,7 @@
               "documentaire",
               "éducation"
             ],
-            "rate": 0
+            "rate": 1
           },
           {
             "name": "Concert de musique live",
@@ -343,10 +313,10 @@
             "rate": 1
           },
           {
-            "name": "Food-truck asiatique",
+            "name": "Brunch healthy",
             "tags": [
-              "asiatique",
-              "street-food"
+              "healthy",
+              "brunch"
             ],
             "rate": 1
           }
@@ -358,7 +328,7 @@
     "user_id": "6",
     "past_activities": [
       {
-        "day": "J-0",
+        "date": "2025-03-19",
         "mood_id": "5",
         "activities": [
           {
@@ -370,6 +340,36 @@
             "rate": 1
           },
           {
+            "name": "Concert de musique live",
+            "tags": [
+              "musique",
+              "spectacle"
+            ],
+            "rate": 1
+          },
+          {
+            "name": "Dîner italien",
+            "tags": [
+              "italien",
+              "gastronomie"
+            ],
+            "rate": 1
+          }
+        ]
+      },
+      {
+        "date": "2025-03-18",
+        "mood_id": "8",
+        "activities": [
+          {
+            "name": "Festival de films",
+            "tags": [
+              "cinéma",
+              "festival"
+            ],
+            "rate": 0
+          },
+          {
             "name": "Soirée jeux de société",
             "tags": [
               "jeux",
@@ -378,17 +378,22 @@
             "rate": 1
           },
           {
-            "name": "Soirée barbecue",
+            "name": "Food-truck asiatique",
             "tags": [
-              "barbecue",
-              "grillades"
+              "asiatique",
+              "street-food"
             ],
             "rate": 0
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "user_id": "7",
+    "past_activities": [
       {
-        "day": "J-1",
+        "date": "2025-03-19",
         "mood_id": "3",
         "activities": [
           {
@@ -397,13 +402,13 @@
               "séries",
               "divertissement"
             ],
-            "rate": 0
+            "rate": 1
           },
           {
-            "name": "Concert de musique live",
+            "name": "Soirée jeux de société",
             "tags": [
-              "musique",
-              "spectacle"
+              "jeux",
+              "amis"
             ],
             "rate": 0
           },
@@ -418,24 +423,24 @@
         ]
       },
       {
-        "day": "J-2",
-        "mood_id": "9",
+        "date": "2025-03-18",
+        "mood_id": "2",
         "activities": [
           {
-            "name": "Binge-watching série",
+            "name": "Marathon de films d'horreur",
             "tags": [
-              "séries",
-              "divertissement"
+              "horreur",
+              "cinéma"
             ],
-            "rate": 1
+            "rate": 0
           },
           {
-            "name": "Randonnée en montagne",
+            "name": "Atelier de peinture",
             "tags": [
-              "randonnée",
-              "nature"
+              "art",
+              "créativité"
             ],
-            "rate": 1
+            "rate": 0
           },
           {
             "name": "Brunch healthy",
@@ -446,15 +451,10 @@
             "rate": 0
           }
         ]
-      }
-    ]
-  },
-  {
-    "user_id": "7",
-    "past_activities": [
+      },
       {
-        "day": "J-0",
-        "mood_id": "1",
+        "date": "2025-03-17",
+        "mood_id": "2",
         "activities": [
           {
             "name": "Festival de films",
@@ -465,20 +465,20 @@
             "rate": 1
           },
           {
-            "name": "Soirée jeux de société",
+            "name": "Atelier de peinture",
             "tags": [
-              "jeux",
-              "amis"
+              "art",
+              "créativité"
             ],
-            "rate": 1
+            "rate": 0
           },
           {
-            "name": "Soirée barbecue",
+            "name": "Dîner italien",
             "tags": [
-              "barbecue",
-              "grillades"
+              "italien",
+              "gastronomie"
             ],
-            "rate": 1
+            "rate": 0
           }
         ]
       }
