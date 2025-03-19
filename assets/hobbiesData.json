@@ -182,5 +182,149 @@
   {
     "name": "Journées de bien-être en plein air",
     "tags": ["santé", "bien-être", "relaxation", "extérieur"]
+  },
+  {
+    "name": "Cueillette de fruits et légumes",
+    "tags": ["nature", "extérieur", "agriculture", "loisir"]
+  },
+  {
+    "name": "Plongée sous-marine / Snorkeling",
+    "tags": ["sport", "eau", "aventure", "exploration"]
+  },
+  {
+    "name": "Randonnée équestre",
+    "tags": ["sport", "nature", "équitation", "aventure"]
+  },
+  {
+    "name": "Observation des oiseaux",
+    "tags": ["nature", "science", "détente", "extérieur"]
+  },
+  {
+    "name": "Feux de camp et chamallows grillés",
+    "tags": ["détente", "nature", "loisir", "convivialité"]
+  },
+  {
+    "name": "Pique-nique en pleine nature",
+    "tags": ["loisir", "nature", "détente", "gastronomie"]
+  },
+  {
+    "name": "Balade en montgolfière",
+    "tags": ["aventure", "extérieur", "adrénaline", "découverte"]
+  },
+  {
+    "name": "Camping sauvage",
+    "tags": ["aventure", "nature", "loisir", "extérieur"]
+  },
+  {
+    "name": "Balade en bateau / croisière",
+    "tags": ["détente", "voyage", "aventure", "eau"]
+  },
+  {
+    "name": "Escape Game en extérieur",
+    "tags": ["jeu", "puzzle", "challenge", "teamwork"]
+  },
+  {
+    "name": "Théâtre de rue",
+    "tags": ["culture", "art", "spectacle", "extérieur"]
+  },
+  {
+    "name": "Visites de châteaux / monuments historiques",
+    "tags": ["culture", "histoire", "exploration", "loisir"]
+  },
+  {
+    "name": "Ateliers de poterie ou sculpture",
+    "tags": ["art", "créativité", "loisir", "manuel"]
+  },
+  {
+    "name": "Spectacle de feux d’artifice",
+    "tags": ["événement", "spectacle", "fête", "extérieur"]
+  },
+  {
+    "name": "Carnavals et festivals",
+    "tags": ["culture", "musique", "célébration", "loisir"]
+  },
+  {
+    "name": "Fresque murale participative (Street Art)",
+    "tags": ["art", "créativité", "peinture", "extérieur"]
+  },
+  {
+    "name": "Parkour / Free Running",
+    "tags": ["sport", "agilité", "adrénaline", "urbain"]
+  },
+  {
+    "name": "Slackline (Équilibre sur sangle)",
+    "tags": ["sport", "équilibre", "challenge", "extérieur"]
+  },
+  {
+    "name": "Tir à l’arc",
+    "tags": ["sport", "précision", "concentration", "loisir"]
+  },
+  {
+    "name": "Paintball / Airsoft",
+    "tags": ["sport", "adrénaline", "équipe", "stratégie"]
+  },
+  {
+    "name": "Zorbing (descendre une pente dans une bulle géante)",
+    "tags": ["sport", "fun", "adrénaline", "aventure"]
+  },
+  {
+    "name": "Saut en parachute",
+    "tags": ["aventure", "adrénaline", "sport", "sensation forte"]
+  },
+  {
+    "name": "Parapente",
+    "tags": ["aventure", "adrénaline", "sport", "extérieur"]
+  },
+  {
+    "name": "Course de drones",
+    "tags": ["technologie", "compétition", "pilotage", "loisir"]
+  },
+  {
+    "name": "Blind Test musical",
+    "tags": ["jeu", "musique", "fun", "soirée"]
+  },
+  {
+    "name": "Tournoi de fléchettes",
+    "tags": ["jeu", "précision", "bar", "soirée"]
+  },
+  {
+    "name": "Soirée quiz géant en plein air",
+    "tags": ["jeu", "loisir", "culture", "extérieur"]
+  },
+  {
+    "name": "Bingo en terrasse",
+    "tags": ["jeu", "loisir", "social", "extérieur"]
+  },
+  {
+    "name": "Soirée murder party",
+    "tags": ["jeu", "rôle", "mystère", "soirée"]
+  },
+  {
+    "name": "Dégustation de cocktails en extérieur",
+    "tags": ["gastronomie", "boisson", "expérience", "social"]
+  },
+  {
+    "name": "Tournois de beer-pong géant",
+    "tags": ["jeu", "alcool", "fun", "compétition"]
+  },
+  {
+    "name": "Nuit d’observation des satellites et planètes",
+    "tags": ["science", "astronomie", "exploration", "extérieur"]
+  },
+  {
+    "name": "Expériences de réalité virtuelle en plein air",
+    "tags": ["technologie", "jeu", "expérience", "VR"]
+  },
+  {
+    "name": "Atelier d’astronomie avec télescopes",
+    "tags": ["science", "astronomie", "éducation", "extérieur"]
+  },
+  {
+    "name": "Atelier de robotique en extérieur",
+    "tags": ["technologie", "créativité", "ingénierie", "expérience"]
+  },
+  {
+    "name": "Projection de films en réalité augmentée",
+    "tags": ["technologie", "cinéma", "VR", "expérience"]
   }
 ]
