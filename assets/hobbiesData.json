@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Course à pied",
+    "tags": ["sport", "cardio", "extérieur", "fitness"]
+  },
+  {
+    "name": "Randonnée",
+    "tags": ["sport", "nature", "aventure", "extérieur"]
+  },
+  {
+    "name": "Cyclisme",
+    "tags": ["sport", "cardio", "vélo", "extérieur"]
+  },
+  {
+    "name": "Marche",
+    "tags": ["détente", "santé", "extérieur", "balade"]
+  },
+  {
+    "name": "Natation",
+    "tags": ["sport", "eau", "cardio", "fitness"]
+  },
+  {
+    "name": "Fitness en plein air",
+    "tags": ["sport", "musculation", "santé", "extérieur"]
+  },
+  {
+    "name": "Yoga",
+    "tags": ["relaxation", "méditation", "santé", "bien-être"]
+  },
+  {
+    "name": "Basketball",
+    "tags": ["sport", "équipe", "compétition", "extérieur"]
+  },
+  {
+    "name": "Badminton",
+    "tags": ["sport", "agilité", "raquette", "extérieur"]
+  },
+  {
+    "name": "Frisbee",
+    "tags": ["jeu", "loisir", "extérieur", "fun"]
+  },
+  {
+    "name": "Tai Chi",
+    "tags": ["méditation", "détente", "santé", "traditionnel"]
+  },
+  {
+    "name": "Saut à la corde",
+    "tags": ["sport", "cardio", "fitness", "agilité"]
+  },
+  {
+    "name": "Escalade en extérieur",
+    "tags": ["aventure", "sport", "adrénaline", "extérieur"]
+  },
+  {
+    "name": "Jardinage",
+    "tags": ["détente", "nature", "activité manuelle", "extérieur"]
+  },
+  {
+    "name": "Paddle",
+    "tags": ["sport", "eau", "équilibre", "loisir"]
+  },
+  {
+    "name": "Kayak",
+    "tags": ["sport", "eau", "aventure", "nature"]
+  },
+  {
+    "name": "Skateboard",
+    "tags": ["sport", "équilibre", "adrénaline", "loisir"]
+  },
+  {
+    "name": "Roller",
+    "tags": ["sport", "équilibre", "loisir", "vitesse"]
+  },
+  {
+    "name": "Surf",
+    "tags": ["sport", "eau", "aventure", "adrénaline"]
+  },
+  {
+    "name": "Tennis",
+    "tags": ["sport", "raquette", "compétition", "agilité"]
+  },
+  {
+    "name": "Football",
+    "tags": ["sport", "équipe", "compétition", "extérieur"]
+  },
+  {
+    "name": "Baseball",
+    "tags": ["sport", "équipe", "compétition", "extérieur"]
+  },
+  {
+    "name": "Randonnée à vélo",
+    "tags": ["sport", "aventure", "vélo", "nature"]
+  },
+  {
+    "name": "Kitesurf",
+    "tags": ["sport", "eau", "adrénaline", "loisir"]
+  },
+  {
+    "name": "Danse en plein air",
+    "tags": ["musique", "loisir", "fun", "extérieur"]
+  },
+  {
+    "name": "Observation des étoiles",
+    "tags": ["relaxation", "nature", "science", "nuit"]
+  },
+  {
+    "name": "Vélo électrique",
+    "tags": ["mobilité", "sport", "loisir", "nature"]
+  },
+  {
+    "name": "Courses d'orientation",
+    "tags": ["aventure", "sport", "nature", "challenge"]
+  },
+  {
+    "name": "Ski ou snowboard",
+    "tags": ["sport", "hiver", "adrénaline", "montagne"]
+  },
+  {
+    "name": "Canoë",
+    "tags": ["sport", "eau", "nature", "aventure"]
+  },
+  {
+    "name": "Bain de soleil",
+    "tags": ["détente", "plage", "bien-être", "soleil"]
+  },
+  {
+    "name": "Terrasse de café ou bar en plein air",
+    "tags": ["loisir", "social", "boisson", "extérieur"]
+  },
+  {
+    "name": "Soirées de jeux de société en extérieur",
+    "tags": ["fun", "social", "jeu", "extérieur"]
+  },
+  {
+    "name": "Concerts en plein air",
+    "tags": ["musique", "loisir", "culture", "événement"]
+  },
+  {
+    "name": "Cinéma en plein air",
+    "tags": ["cinéma", "loisir", "culture", "extérieur"]
+  },
+  {
+    "name": "Food trucks et marchés alimentaires",
+    "tags": ["gastronomie", "découverte", "nourriture", "extérieur"]
+  },
+  {
+    "name": "Cours de cuisine en plein air",
+    "tags": ["gastronomie", "loisir", "expérience", "extérieur"]
+  },
+  {
+    "name": "Soirées karaoké en extérieur",
+    "tags": ["musique", "fun", "loisir", "social"]
+  },
+  {
+    "name": "Bière-pong",
+    "tags": ["jeu", "alcool", "fun", "compétition"]
+  },
+  {
+    "name": "Happy hour sur une terrasse",
+    "tags": ["loisir", "alcool", "social", "détente"]
+  },
+  {
+    "name": "Ateliers d'art ou peinture en plein air",
+    "tags": ["créativité", "art", "loisir", "extérieur"]
+  },
+  {
+    "name": "Pêche en rivière ou en mer",
+    "tags": ["loisir", "nature", "patience", "extérieur"]
+  },
+  {
+    "name": "Batailles d'eau",
+    "tags": ["jeu", "fun", "eau", "loisir"]
+  },
+  {
+    "name": "Balades à vélo avec un arrêt dans un bar ou un pub",
+    "tags": ["loisir", "sport", "social", "boisson"]
+  },
+  {
+    "name": "Visites de brasseries ou de vignobles",
+    "tags": ["découverte", "gastronomie", "boisson", "expérience"]
+  },
+  {
+    "name": "Journées de bien-être en plein air",
+    "tags": ["santé", "bien-être", "relaxation", "extérieur"]
+  }
+]
