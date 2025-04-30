@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:my_mood/components/activity_component/activity_component.dart';
 import 'package:my_mood/components/bottom_navigation_bar/custom_bottom_navigation_bar.dart';
 import 'package:my_mood/components/buttons/containers/gradient_container.dart';
 import 'package:my_mood/components/header_bar/header_bar.dart';
@@ -73,11 +74,16 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ],
               ),
+              const SizedBox(height: 20),
+              const ActivityComponent(activityName: "Loisir"),
+              const SizedBox(height: 20),
+              const ActivityComponent(activityName: "Repas"),
+              const SizedBox(height: 20),
+              const ActivityComponent(activityName: "Film/Série"),
             ],
           ),
         ),
       ),
-      bottomNavigationBar: const CustomBottomNaviationBar(),
     );
   }
 }

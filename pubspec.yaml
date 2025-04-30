@@ -71,6 +71,28 @@ flutter:
     - res/assets/icons/moods/stressed.svg
     - res/assets/icons/moods/tired.svg
     - res/assets/icons/moods/upset.svg
+    - res/assets/icons/bottom_navigation_bar/profile_icon_black.svg
+    - res/assets/icons/bottom_navigation_bar/home_icon_black.svg
+    - res/assets/icons/bottom_navigation_bar/settings_icon_black.svg
+    - res/assets/icons/activity_card/colored_circle.svg
+    - res/assets/icons/activity_card/empty_circle.svg
+    - res/assets/images/image_test.jpeg
+    - res/assets/icons/activity_card/colored_circle.png
+    - res/assets/icons/activity_card/empty_circle.png
+    - res/assets/icons/activity_card/orange_colored_circle.png
+    - res/assets/icons/activity_card/orange_empty_circle.png
+    - res/assets/icons/activity_card/empty_like.png
+    - res/assets/icons/activity_card/colored_like.png
+    - res/assets/icons/activity_card/empty_dislike.png
+    - res/assets/icons/activity_card/colored_dislike.png
+    - res/assets/icons/settings_page/delete.svg
+    - res/assets/icons/settings_page/language.svg
+    - res/assets/icons/settings_page/line.svg
+    - res/assets/icons/settings_page/log_out.svg
+    - res/assets/icons/settings_page/notifications.svg
+    - res/assets/icons/settings_page/play_tutorial.svg
+    - res/assets/icons/settings_page/theme.svg
+    - res/assets/icons/settings_page/trailing_icon.svg
 
   fonts:
     # -- 1) Police Quicksand (versions fixes) --

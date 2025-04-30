@@ -6,7 +6,8 @@ import 'package:my_mood/pages/login_pages/sign_in_page.dart';
 
 import '../../components/texts/custom_text.dart';
 import '../../components/texts/text_styles/custom_text_style.dart';
-import '../home_page.dart';
+import '../main_page.dart';
+import '../navigation_pages/home_page.dart';
 
 class SignUpPage extends StatelessWidget {
 
@@ -64,7 +65,7 @@ class SignUpPage extends StatelessWidget {
                         Navigator.push(
                             context,
                             PageRouteBuilder(
-                              pageBuilder: (context, animation1, animation2) => const HomePage(),
+                              pageBuilder: (context, animation1, animation2) => const MainPage(),
                             )
                         );
                       }

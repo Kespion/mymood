@@ -4,12 +4,13 @@ import 'package:my_mood/components/buttons/containers/blue_container.dart';
 import 'package:my_mood/components/buttons/containers/gradient_container.dart';
 import 'package:my_mood/pages/login_pages/forgot_password_page.dart';
 import 'package:my_mood/pages/login_pages/sign_up_page.dart';
+import 'package:my_mood/pages/main_page.dart';
 
 import '../../components/textfields/form_text_field.dart';
 import '../../components/texts/custom_text.dart';
 import '../../components/texts/text_styles/custom_text_style.dart';
 import '../../config/utils.dart';
-import '../home_page.dart';
+import '../navigation_pages/home_page.dart';
 
 class SignInPage extends StatelessWidget {
 
@@ -63,7 +64,7 @@ class SignInPage extends StatelessWidget {
                         Navigator.push(
                             context,
                             PageRouteBuilder(
-                              pageBuilder: (context, animation1, animation2) => const HomePage(),
+                              pageBuilder: (context, animation1, animation2) => const MainPage(),
                             )
                         );
                       }
