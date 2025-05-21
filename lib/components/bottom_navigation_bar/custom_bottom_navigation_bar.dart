@@ -7,20 +7,22 @@ class CustomBottomNaviationBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BottomNavigationBar(items: [
-      BottomNavigationBarItem(
-        icon: SvgPicture.asset('res/assets/icons/bottom_navigation_bar/profile_icon_black.svg'),
-        label: 'Profil',
-      ),
-      BottomNavigationBarItem(
-        icon: SvgPicture.asset('res/assets/icons/bottom_navigation_bar/home_icon_black.svg'),
-        label: 'Home',
-      ),
-      BottomNavigationBarItem(
-        icon: SvgPicture.asset('res/assets/icons/bottom_navigation_bar/settings_icon_black.svg'),
-        label: 'Paramètres',
-      ),
-    ]);
+    return BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: SvgPicture.asset('res/assets/icons/bottom_navigation_bar/profile_icon_black.svg'),
+            label: 'Profil',
+          ),
+          BottomNavigationBarItem(
+            icon: SvgPicture.asset('res/assets/icons/bottom_navigation_bar/home_icon_black.svg'),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: SvgPicture.asset('res/assets/icons/bottom_navigation_bar/settings_icon_black.svg'),
+            label: 'Paramètres',
+          ),
+      ]
+    );
   }
 
 }

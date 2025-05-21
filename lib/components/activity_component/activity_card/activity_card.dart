@@ -16,9 +16,12 @@ class ActivityCard extends StatefulWidget {
   State<ActivityCard> createState() => _ActivityCardState();
 }
 
-class _ActivityCardState extends State<ActivityCard> {
+class _ActivityCardState extends State<ActivityCard> with AutomaticKeepAliveClientMixin {
   bool isLiked = false;
   bool isDisliked = false;
+
+  @override
+  bool get wantKeepAlive => true;
 
   void toggleLike() {
     setState(() {
@@ -36,6 +39,7 @@ class _ActivityCardState extends State<ActivityCard> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return Card(
       elevation: 4,
       margin: const EdgeInsets.symmetric(horizontal: 10),
@@ -59,21 +63,13 @@ class _ActivityCardState extends State<ActivityCard> {
                 right: 20,
                 child: Row(
                   children: [
-                    GestureDetector(
-                      onTap: toggleLike,
-                      child: Image.asset(
-                        isLiked ? 'res/assets/icons/activity_card/colored_like.png' : 'res/assets/icons/activity_card/empty_like.png',
-                        width: 28,
-                        height: 28,
-                      ),
-                    ),
                     const SizedBox(width: 10),
                     GestureDetector(
                       onTap: toggleDislike,
                       child: Image.asset(
-                        isDisliked ? 'res/assets/icons/activity_card/colored_dislike.png' : 'res/assets/icons/activity_card/empty_dislike.png',
-                        width: 24,
-                        height: 24,
+                        isDisliked ? 'res/assets/icons/activity_card/heart_liked.png' : 'res/assets/icons/activity_card/heart_empty.png',
+                        width: 32,
+                        height: 32,
                       ),
                     ),
                   ],

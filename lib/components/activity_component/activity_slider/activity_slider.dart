@@ -4,7 +4,9 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../activity_card/activity_card.dart';
 
 class ActivitySlider extends StatefulWidget {
-  const ActivitySlider({super.key});
+  final List<Map<String, dynamic>> activities;
+
+  const ActivitySlider({super.key, required this.activities});
 
   @override
   State<ActivitySlider> createState() => _ActivitySliderState();
@@ -16,34 +18,6 @@ class _ActivitySliderState extends State<ActivitySlider> {
   final PageController _controller = PageController();
   int _currentPage = 0;
 
-  final List<Map<String, dynamic>> activities = [
-    {
-      "image": "res/assets/images/image_test.jpeg",
-      "title": "Écouter de la musique",
-      "tags": ["Musique", "Calme"],
-    },
-    {
-      "image": "res/assets/images/image_test.jpeg",
-      "title": "Lire un livre",
-      "tags": ["Lecture", "Relaxation"],
-    },
-    {
-      "image": "res/assets/images/image_test.jpeg",
-      "title": "Marcher dehors",
-      "tags": ["Nature", "Énergie"],
-    },
-    {
-      "image": "res/assets/images/image_test.jpeg",
-      "title": "S'amuser en Pologne",
-      "tags": ["Nature", "Énergie", "Histoire", "Guerre"],
-    },
-    {
-      "image": "res/assets/images/image_test.jpeg",
-      "title": "Marcher dehors",
-      "tags": ["Nature", "Énergie"],
-    },
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -52,14 +26,14 @@ class _ActivitySliderState extends State<ActivitySlider> {
           height: 330,
           child: PageView.builder(
             controller: _controller,
-            itemCount: activities.length,
+            itemCount: widget.activities.length,
             onPageChanged: (index) {
               setState(() {
                 _currentPage = index;
               });
             },
             itemBuilder: (context, index) {
-              final activity = activities[index];
+              final activity = widget.activities[index];
               return ActivityCard(
                 imagePath: activity["image"],
                 activityTitle: activity["title"],
@@ -71,7 +45,7 @@ class _ActivitySliderState extends State<ActivitySlider> {
         const SizedBox(height: 20),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: List.generate(activities.length, (index) {
+          children: List.generate(widget.activities.length, (index) {
             return AnimatedContainer(
               duration: const Duration(milliseconds: 300),
               margin: const EdgeInsets.symmetric(horizontal: 5),

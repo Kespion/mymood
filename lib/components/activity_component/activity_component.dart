@@ -4,8 +4,9 @@ import 'package:my_mood/components/texts/text_styles/custom_text_style.dart';
 
 class ActivityComponent extends StatelessWidget {
   final String activityName;
+  final List<Map<String, dynamic>> activities;
 
-  const ActivityComponent({super.key, required this.activityName});
+  const ActivityComponent({super.key, required this.activityName, required this.activities});
 
   @override
   Widget build(BuildContext context) {
@@ -19,10 +20,10 @@ class ActivityComponent extends StatelessWidget {
         const SizedBox(
           height: 15,
         ),
-        const Column(
+        Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            ActivitySlider()
+            ActivitySlider(activities: activities)
           ],
         )
       ],

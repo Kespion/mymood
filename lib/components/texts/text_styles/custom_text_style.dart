@@ -23,6 +23,20 @@ class CustomTextStyle {
       fontWeight: FontWeight.w400
   );
 
+  static TextStyle black16Regular600 = const TextStyle(
+      color: Colors.black,
+      fontSize: 16,
+      //fontFamily: 'Quicksand',
+      fontWeight: FontWeight.w600
+  );
+
+  static TextStyle black16Regular700 = const TextStyle(
+      color: Colors.black,
+      fontSize: 16,
+      //fontFamily: 'Quicksand',
+      fontWeight: FontWeight.w700
+  );
+
   static TextStyle black14RegularUnderline = const TextStyle(
     color: Colors.black,
     fontSize: 12,
@@ -44,6 +58,13 @@ class CustomTextStyle {
       fontSize: 20,
       //fontFamily: 'Quicksand',
       fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle black20BoldTitle500 = const TextStyle(
+    color: Colors.black,
+    fontSize: 20,
+    //fontFamily: 'Quicksand',
+    fontWeight: FontWeight.w500,
   );
 
   static TextStyle hintText = const TextStyle(

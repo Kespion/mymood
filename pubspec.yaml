@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^1.1.6
+  intl: ^0.19.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -76,7 +77,21 @@ flutter:
     - res/assets/icons/bottom_navigation_bar/settings_icon_black.svg
     - res/assets/icons/activity_card/colored_circle.svg
     - res/assets/icons/activity_card/empty_circle.svg
-    - res/assets/images/image_test.jpeg
+    - res/assets/images/music.png
+    - res/assets/images/read_book.png
+    - res/assets/images/hiking.png
+    - res/assets/images/sport.png
+    - res/assets/images/drawing.png
+    - res/assets/images/harry_potter.png
+    - res/assets/images/gladiator.png
+    - res/assets/images/stranger_things.png
+    - res/assets/images/it.png
+    - res/assets/images/godfather.png
+    - res/assets/images/salad.png
+    - res/assets/images/carbonara.png
+    - res/assets/images/burger_king.png
+    - res/assets/images/sushis.png
+    - res/assets/images/couscous.png
     - res/assets/icons/activity_card/colored_circle.png
     - res/assets/icons/activity_card/empty_circle.png
     - res/assets/icons/activity_card/orange_colored_circle.png
@@ -85,6 +100,8 @@ flutter:
     - res/assets/icons/activity_card/colored_like.png
     - res/assets/icons/activity_card/empty_dislike.png
     - res/assets/icons/activity_card/colored_dislike.png
+    - res/assets/icons/activity_card/heart_liked.png
+    - res/assets/icons/activity_card/heart_empty.png
     - res/assets/icons/settings_page/delete.svg
     - res/assets/icons/settings_page/language.svg
     - res/assets/icons/settings_page/line.svg
@@ -93,6 +110,19 @@ flutter:
     - res/assets/icons/settings_page/play_tutorial.svg
     - res/assets/icons/settings_page/theme.svg
     - res/assets/icons/settings_page/trailing_icon.svg
+    - res/assets/icons/user_profile/add_pic_button.png
+    - res/assets/icons/user_profile/generic_avatar.png
+    - res/assets/icons/user_profile/grey_circle.svg
+    - res/assets/icons/user_profile/lavender_circle.svg
+    - res/assets/icons/user_profile/light_blue_circle.svg
+    - res/assets/icons/user_profile/light_green_circle.svg
+    - res/assets/icons/user_profile/light_red_circle.svg
+    - res/assets/icons/user_profile/yellow_circle.svg
+    - res/assets/icons/user_profile/orange_circle.svg
+    - res/assets/icons/user_profile/orange_red_circle.svg
+    - res/assets/icons/user_profile/pale_circle.svg
+    - res/assets/icons/user_profile/add_friend.png
+    - res/assets/icons/user_profile/remove_friend.png
 
   fonts:
     # -- 1) Police Quicksand (versions fixes) --
