@@ -82,9 +82,9 @@ class _HomePageState extends State<HomePage> {
       "recommendation": "0"
     },
     {
-      "image": "res/assets/images/burger_king.png",
-      "title": "Burger King",
-      "tags": ["Fast-food", "Rapide", "Américain"],
+      "image": "res/assets/images/bourguignon.png",
+      "title": "Boeuf bourguignon",
+      "tags": ["Viande", "Français", "Sauce"],
       "recommendation": "1"
     },
     {

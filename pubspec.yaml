@@ -89,9 +89,9 @@ flutter:
     - res/assets/images/godfather.png
     - res/assets/images/salad.png
     - res/assets/images/carbonara.png
-    - res/assets/images/burger_king.png
     - res/assets/images/sushis.png
     - res/assets/images/couscous.png
+    - res/assets/images/bourguignon.png
     - res/assets/icons/activity_card/check.png
     - res/assets/icons/activity_card/colored_circle.png
     - res/assets/icons/activity_card/empty_circle.png
