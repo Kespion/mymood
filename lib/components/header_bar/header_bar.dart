@@ -9,6 +9,7 @@ class HeaderBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       automaticallyImplyLeading: false,
+      backgroundColor: Colors.transparent,
       title: Center(
         child: SvgPicture.asset(
           'res/assets/logos/logo_my_mood.svg',
