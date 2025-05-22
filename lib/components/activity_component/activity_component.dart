@@ -7,12 +7,14 @@ class ActivityComponent extends StatefulWidget {
   final String activityName;
   final List<Map<String, dynamic>> activities;
   final List<String> selectedTags;
+  final Function(String) onTagToggle;
 
   const ActivityComponent({
     super.key,
     required this.activityName,
     required this.activities,
     required this.selectedTags,
+    required this.onTagToggle,
   });
 
   @override
@@ -20,14 +22,6 @@ class ActivityComponent extends StatefulWidget {
 }
 
 class _ActivityComponentState extends State<ActivityComponent> {
-  List<String> selectedTags = [];
-
-  void onFilterSelected(List<String> tags) {
-    setState(() {
-      selectedTags = tags;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -38,6 +32,7 @@ class _ActivityComponentState extends State<ActivityComponent> {
         ActivitySlider(
           activities: widget.activities,
           selectedTags: widget.selectedTags,
+          onTagToggle: widget.onTagToggle,
         ),
       ],
     );

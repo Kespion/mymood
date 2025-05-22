@@ -5,11 +5,13 @@ import '../activity_card/activity_card.dart';
 class ActivitySlider extends StatefulWidget {
   final List<Map<String, dynamic>> activities;
   final List<String> selectedTags;
+  final Function(String) onTagToggle;
 
   const ActivitySlider({
     super.key,
     required this.activities,
     required this.selectedTags,
+    required this.onTagToggle,
   });
 
   @override
@@ -42,6 +44,8 @@ class _ActivitySliderState extends State<ActivitySlider> {
                 activityTitle: activity["title"],
                 tags: List<String>.from(activity["tags"]),
                 selectedTags: widget.selectedTags,
+                onTagToggle: widget.onTagToggle,
+                recommendation: activity["recommendation"],
               );
             },
           ),

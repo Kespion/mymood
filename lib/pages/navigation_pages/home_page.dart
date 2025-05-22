@@ -24,6 +24,8 @@ class _HomePageState extends State<HomePage> {
   bool _showMoodSelector = true;
   SvgPicture? _selectedMoodIcon;
   bool _showActivities = false;
+  List<String> _activeRecommendations = [];
+
 
   void _handleMoodSelected(SvgPicture moodIcon) {
     setState(() {
@@ -38,26 +40,31 @@ class _HomePageState extends State<HomePage> {
       "image": "res/assets/images/music.png",
       "title": "Écouter de la musique",
       "tags": ["Musique", "Calme", "Émotion"],
+      "recommendation": "0"
     },
     {
       "image": "res/assets/images/hiking.png",
       "title": "Faire une balade",
       "tags": ["Nature", "Relaxation"],
+      "recommendation": "0"
     },
     {
       "image": "res/assets/images/read_book.png",
       "title": "Lire un livre",
       "tags": ["Imagination", "Calme"],
+      "recommendation": "1"
     },
     {
       "image": "res/assets/images/sport.png",
       "title": "Faire du sport",
       "tags": ["Sport", "Énergie", "Santé"],
+      "recommendation": "1"
     },
     {
       "image": "res/assets/images/drawing.png",
       "title": "Dessiner",
       "tags": ["Créativité", "Calme", "Concentration"],
+      "recommendation": "2"
     },
   ];
 
@@ -66,26 +73,32 @@ class _HomePageState extends State<HomePage> {
       "image": "res/assets/images/salad.png",
       "title": "Salade composée",
       "tags": ["Légumes", "Frais", "Santé"],
+      "recommendation": "0"
     },
     {
       "image": "res/assets/images/carbonara.png",
       "title": "Pâtes carbonara",
       "tags": ["Pâtes", "Crème", "Gourmand", "Italien"],
+      "recommendation": "0"
     },
     {
       "image": "res/assets/images/burger_king.png",
       "title": "Burger King",
       "tags": ["Fast-food", "Rapide", "Américain"],
+      "recommendation": "1"
     },
     {
       "image": "res/assets/images/sushis.png",
       "title": "Sushis",
       "tags": ["Poisson", "Frais", "Asiatique"],
+      "recommendation": "1"
+
     },
     {
       "image": "res/assets/images/couscous.png",
       "title": "Couscous",
       "tags": ["Épices", "Oriental", "Convivial"],
+      "recommendation": "2"
     },
   ];
 
@@ -94,26 +107,31 @@ class _HomePageState extends State<HomePage> {
       "image": "res/assets/images/harry_potter.png",
       "title": "Harry Potter",
       "tags": ["Fantastique", "Aventure", "Magie"],
+      "recommendation": "0"
     },
     {
       "image": "res/assets/images/gladiator.png",
       "title": "Gladiator",
       "tags": ["Action", "Histoire", "Épique"],
+      "recommendation": "0"
     },
     {
       "image": "res/assets/images/stranger_things.png",
       "title": "Stranger Things",
       "tags": ["Science-fiction", "Aventure", "Années 80"],
+      "recommendation": "1"
     },
     {
       "image": "res/assets/images/it.png",
       "title": "Ça",
       "tags": ["Horreur", "Suspense", "Adaptation"],
+      "recommendation": "1"
     },
     {
       "image": "res/assets/images/godfather.png",
       "title": "Le Parrain",
       "tags": ["Drame", "Crime", "Classique"],
+      "recommendation": "2"
     },
   ];
 
@@ -131,21 +149,32 @@ class _HomePageState extends State<HomePage> {
 
   List<String> _selectedTags = [];
 
-  void _togglePreference(int index) {
+  void _toggleTagSelection(String tag) {
     setState(() {
-      _preferences[index].isSelected = !_preferences[index].isSelected;
-      _updateSelectedTags();
+      if (_selectedTags.contains(tag)) {
+        _selectedTags.remove(tag);
+      } else {
+        _selectedTags.add(tag);
+      }
     });
   }
 
-  void _updateSelectedTags() {
-    final tagsSet = <String>{};
-    for (final pref in _preferences) {
-      if (pref.isSelected) {
-        tagsSet.addAll(pref.tags);
+  void _toggleRecommendation(String recommendationId) {
+    setState(() {
+      if (_activeRecommendations.contains(recommendationId)) {
+        _activeRecommendations.remove(recommendationId);
+      } else {
+        _activeRecommendations.add(recommendationId);
       }
-    }
-    _selectedTags = tagsSet.toList();
+    });
+  }
+
+  List<Map<String, dynamic>> _filterActivities(List<Map<String, dynamic>> allActivities) {
+    if (_activeRecommendations.isEmpty) return allActivities;
+
+    return allActivities.where((activity) {
+      return _activeRecommendations.contains(activity["recommendation"]);
+    }).toList();
   }
 
   @override
@@ -167,32 +196,45 @@ class _HomePageState extends State<HomePage> {
                 SelectedMood(_selectedMoodIcon!),
 
               if(_showActivities) ...[
-                const SizedBox(height: 30),
+                const SizedBox(height: 20),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: List.generate(_preferences.length, (index) {
-                    final pref = _preferences[index];
-                    return PreferenceCard(
-                      name: pref.name,
-                      isSelected: pref.isSelected,
-                      onToggle: () => _togglePreference(index),
-                    );
-                  }),
+                  children: [
+                    PreferenceCard(
+                      name: "Mes préférences",
+                      isSelected: _activeRecommendations.contains("0"),
+                      onTap: () => _toggleRecommendation("0"),
+                    ),
+                    PreferenceCard(
+                      name: "Populaire",
+                      isSelected: _activeRecommendations.contains("1"),
+                      onTap: () => _toggleRecommendation("1"),
+                    ),
+                    PreferenceCard(
+                      name: "Découverte",
+                      isSelected: _activeRecommendations.contains("2"),
+                      onTap: () => _toggleRecommendation("2"),
+                    ),
+                  ],
                 ),
+                const SizedBox(height: 20),
                 ActivityComponent(
                   activityName: "Loisirs",
-                  activities: activitiesLeasures,
+                  activities: _filterActivities(activitiesLeasures),
                   selectedTags: _selectedTags,
+                  onTagToggle: _toggleTagSelection,
                 ),
                 ActivityComponent(
                   activityName: "Repas",
-                  activities: activitiesMeals,
+                  activities: _filterActivities(activitiesMeals),
                   selectedTags: _selectedTags,
+                  onTagToggle: _toggleTagSelection,
                 ),
                 ActivityComponent(
                   activityName: "Films/Séries",
-                  activities: activitiesMovies,
+                  activities: _filterActivities(activitiesMovies),
                   selectedTags: _selectedTags,
+                  onTagToggle: _toggleTagSelection,
                 ),
               ],
 
