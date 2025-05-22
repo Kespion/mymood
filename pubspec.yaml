@@ -92,6 +92,7 @@ flutter:
     - res/assets/images/burger_king.png
     - res/assets/images/sushis.png
     - res/assets/images/couscous.png
+    - res/assets/icons/activity_card/check.png
     - res/assets/icons/activity_card/colored_circle.png
     - res/assets/icons/activity_card/empty_circle.png
     - res/assets/icons/activity_card/orange_colored_circle.png

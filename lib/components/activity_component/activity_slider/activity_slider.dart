@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import '../activity_card/activity_card.dart';
 
 class ActivitySlider extends StatefulWidget {
   final List<Map<String, dynamic>> activities;
+  final List<String> selectedTags;
 
-  const ActivitySlider({super.key, required this.activities});
+  const ActivitySlider({
+    super.key,
+    required this.activities,
+    required this.selectedTags,
+  });
 
   @override
   State<ActivitySlider> createState() => _ActivitySliderState();
-
 }
 
 class _ActivitySliderState extends State<ActivitySlider> {
@@ -23,7 +26,7 @@ class _ActivitySliderState extends State<ActivitySlider> {
     return Column(
       children: [
         SizedBox(
-          height: 330,
+          height: 350,
           child: PageView.builder(
             controller: _controller,
             itemCount: widget.activities.length,
@@ -38,11 +41,12 @@ class _ActivitySliderState extends State<ActivitySlider> {
                 imagePath: activity["image"],
                 activityTitle: activity["title"],
                 tags: List<String>.from(activity["tags"]),
+                selectedTags: widget.selectedTags,
               );
             },
           ),
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 10),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: List.generate(widget.activities.length, (index) {

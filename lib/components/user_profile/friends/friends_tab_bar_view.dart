@@ -9,6 +9,17 @@ class FriendsTabBarView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    final List<FriendCard> friends = [
+      const FriendCard(name: "Anthony Viano", mood: "happy"),
+      const FriendCard(name: "Éva Jannarelli", mood: "sad"),
+      const FriendCard(name: "Julien Fertilati", mood: "upset"),
+      const FriendCard(name: "Yves Estrada", mood: "stressed"),
+      const FriendCard(name: "Lauren Castillon", mood: "neutral"),
+      const FriendCard(name: "Ines Landro", mood: "calm"),
+      const FriendCard(name: "Stella Monterosso", mood: "energetic"),
+    ];
+
     return SingleChildScrollView(
       padding: const EdgeInsets.symmetric(horizontal: 15),
       child: Column(
@@ -18,9 +29,11 @@ class FriendsTabBarView extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              CustomInputTextField(
-                  "Rechercher un ami",
-                  CustomTextStyle.black16Regular
+              CustomInputTextField.customSize(
+                "Rechercher un ami",
+                CustomTextStyle.black16Regular,
+                309,
+                34
               ),
               GestureDetector(
                 onTap: () {
@@ -34,7 +47,17 @@ class FriendsTabBarView extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 20),
-          const FriendCard(),
+          ListView(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            children: [
+              for (var friend in friends)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: friend,
+                ),
+            ],
+          ),
         ],
       ),
     );

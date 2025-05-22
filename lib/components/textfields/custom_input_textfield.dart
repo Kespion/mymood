@@ -5,10 +5,24 @@ import '../texts/text_styles/custom_text_style.dart';
 class CustomInputTextField extends StatelessWidget {
 
   final String hintText;
-
   final TextStyle hintStyle;
+  final double width;
+  final double height;
 
-  CustomInputTextField(this.hintText, this.hintStyle, {super.key});
+  CustomInputTextField(
+      this.hintText,
+      this.hintStyle, {
+        super.key,
+      })  : width = 291,
+        height = 37;
+
+  CustomInputTextField.customSize(
+      this.hintText,
+      this.hintStyle,
+      this.width,
+      this.height, {
+        super.key,
+      });
 
   TextEditingController textEditingController = TextEditingController();
 
@@ -17,8 +31,8 @@ class CustomInputTextField extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: 291,
-          height: 37,
+          width: width,
+          height: height,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(26),
             gradient: const LinearGradient(

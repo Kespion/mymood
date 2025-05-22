@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:my_mood/components/activity_component/activity_component.dart';
-import 'package:my_mood/components/bottom_navigation_bar/custom_bottom_navigation_bar.dart';
 import 'package:my_mood/components/buttons/containers/gradient_container.dart';
 import 'package:my_mood/components/header_bar/header_bar.dart';
-import 'package:my_mood/components/mood_selector/mood_card/mood_icon.dart';
 import 'package:my_mood/components/mood_selector/mood_card/selected_mood.dart';
 import 'package:my_mood/components/mood_selector/mood_selector.dart';
+import 'package:my_mood/components/preferences/preference_card.dart';
 import 'package:my_mood/components/texts/custom_text.dart';
 import 'package:my_mood/components/texts/text_styles/custom_text_style.dart';
 import 'package:my_mood/pages/login_pages/sign_in_page.dart';
+
+import '../../components/preferences/preference_model.dart';
 
 class HomePage extends StatefulWidget {
 
@@ -116,6 +117,37 @@ class _HomePageState extends State<HomePage> {
     },
   ];
 
+  final List<PreferenceModel> _preferences = [
+    PreferenceModel(name: "Mes préferences", tags: [
+      "Sport", "Créativité", "Calme", "Santé", "Italien", "Frais", "Fantastique", "Horreur"
+    ]),
+    PreferenceModel(name: "Populaire", tags: [
+      "Nature", "Calme", "Sport", "Asiatique", "Fast-food", "Aventure", "Histoire"
+    ]),
+    PreferenceModel(name: "Découverte", tags: [
+      "Magie", "Adaptation", "Crème", "Légumes", "Concentration", "Énergie", "Relaxation"
+    ]),
+  ];
+
+  List<String> _selectedTags = [];
+
+  void _togglePreference(int index) {
+    setState(() {
+      _preferences[index].isSelected = !_preferences[index].isSelected;
+      _updateSelectedTags();
+    });
+  }
+
+  void _updateSelectedTags() {
+    final tagsSet = <String>{};
+    for (final pref in _preferences) {
+      if (pref.isSelected) {
+        tagsSet.addAll(pref.tags);
+      }
+    }
+    _selectedTags = tagsSet.toList();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -135,12 +167,33 @@ class _HomePageState extends State<HomePage> {
                 SelectedMood(_selectedMoodIcon!),
 
               if(_showActivities) ...[
-                const SizedBox(height: 20),
-                ActivityComponent(activityName: "Loisirs", activities: activitiesLeasures,),
-                const SizedBox(height: 20),
-                ActivityComponent(activityName: "Repas", activities: activitiesMeals,),
-                const SizedBox(height: 20),
-                ActivityComponent(activityName: "Films/Séries", activities: activitiesMovies,),
+                const SizedBox(height: 30),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: List.generate(_preferences.length, (index) {
+                    final pref = _preferences[index];
+                    return PreferenceCard(
+                      name: pref.name,
+                      isSelected: pref.isSelected,
+                      onToggle: () => _togglePreference(index),
+                    );
+                  }),
+                ),
+                ActivityComponent(
+                  activityName: "Loisirs",
+                  activities: activitiesLeasures,
+                  selectedTags: _selectedTags,
+                ),
+                ActivityComponent(
+                  activityName: "Repas",
+                  activities: activitiesMeals,
+                  selectedTags: _selectedTags,
+                ),
+                ActivityComponent(
+                  activityName: "Films/Séries",
+                  activities: activitiesMovies,
+                  selectedTags: _selectedTags,
+                ),
               ],
 
               const SizedBox(height: 15),

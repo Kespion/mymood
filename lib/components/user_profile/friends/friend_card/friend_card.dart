@@ -1,12 +1,13 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:my_mood/components/mood_selector/mood_card/mood_icon.dart';
 
 import '../../../texts/text_styles/custom_text_style.dart';
 
 class FriendCard extends StatelessWidget {
-  const FriendCard({super.key});
+  final String name;
+  final String mood;
+
+  const FriendCard({super.key, required this.name, required this.mood});
 
   @override
   Widget build(BuildContext context) {
@@ -25,12 +26,13 @@ class FriendCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(50),
           ),
           child: Container(
-            width: 260,
+            width: 290,
+            height: 50,
             padding: const EdgeInsets.all(8),
-            margin: const EdgeInsets.all(3),
+            margin: const EdgeInsets.all(2),
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(26),
+              borderRadius: BorderRadius.circular(50),
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -41,11 +43,11 @@ class FriendCard extends StatelessWidget {
                   height: 40,
                 ),
                 Text(
-                    "Anthony Viano",
+                    name,
                     style: CustomTextStyle.black20BoldTitle500
                 ),
                 SvgPicture.asset(
-                  "res/assets/icons/moods/happy.svg",
+                  "res/assets/icons/moods/$mood.svg",
                   width: 40,
                   height: 40,
                 ),
@@ -53,6 +55,7 @@ class FriendCard extends StatelessWidget {
             ),
           ),
         ),
+        const SizedBox(width: 10,),
         Image.asset(
           "res/assets/icons/user_profile/remove_friend.png",
           width: 40,
